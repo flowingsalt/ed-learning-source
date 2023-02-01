@@ -1,0 +1,35 @@
+/*------------------------------------------------------------------
+ * Inputs
+ *
+ * @zeplin https://zpl.io/2jRGkw6
+ *----------------------------------------------------------------*/
+:root {
+  /* Standard Text Input */
+  --ebl-input-min-width: 8.1875rem; /* 131px */
+  --ebl-input-radius: 0.25rem; /* 4px */
+  --ebl-input-height: 2.5rem; /* 40px */
+  --ebl-input-marginbottom: var(--ebl-s3); /* 16px */
+  --ebl-input-shim-marginbottom: var(--ebl-s1);
+
+  --ebl-input-border-color: var(--ebl-mid-gray);
+  --ebl-input-border-hover-color: var(--ebl-alert-black);
+
+  --ebl-input-marginbottom-xl: var(--ebl-s6); /* 40px */
+
+  /* Error State - border thickens from 1px -> 2px */
+  --ebl-input-border-error: solid 2px var(--ebl-signal-error);
+  --ebl-input-bordercolor-error: var(--ebl-signal-error);
+  --ebl-input-borderwidth-error: 2px;
+  --ebl-input-borderstyle-error: solid;
+
+  --ebl-input-padding-left: var(--ebl-s3);
+  --ebl-input-padding-right: var(--ebl-s3);
+
+  --ebl-input-label-margin-bottom: 0;
+
+  /* Combo Box */
+  --ebl-combo-box-padding-right: var(--ebl-s7);
+
+  /* --Multiline Text Input-- */
+  --ebl-input-max-height: 6.25rem; /* 100 */
+}

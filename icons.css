@@ -1,0 +1,14 @@
+/*------------------------------------------------------------------
+ * Icon Variables
+ *
+ * @zeplin https://zpl.io/bWmogrp
+ *----------------------------------------------------------------*/
+
+:root {
+  --ebl-icon-sm: 1rem; /* 16px */
+  --ebl-icon-md: 1.5rem; /* 24px */
+  --ebl-icon-lg: 2rem; /* 32px */
+  --ebl-icon-xl: 4rem; /* 64px */
+
+  --ebl-icon-color: var(--ebl-black); /* Default color */
+}

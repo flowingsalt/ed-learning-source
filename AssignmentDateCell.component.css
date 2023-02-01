@@ -1,0 +1,9 @@
+.isDueAssignment {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.assignmentDateCell {
+  display: flex;
+  flex-direction: column;
+}

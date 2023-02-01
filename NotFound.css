@@ -1,0 +1,19 @@
+.errorTile {
+  width: 100%;
+  height: 174px;
+  border-radius: var(--spaceTiny);
+  background-color: var(--colorBase);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--space);
+  & .message {
+    font-size: var(--spaceHalfMedium);
+    font-weight: bold;
+    margin-left: var(--space);
+  }
+  & svg {
+    width: 104px;
+    height: 104px;
+  }
+}

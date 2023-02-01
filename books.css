@@ -1,0 +1,5 @@
+:root {
+  --ebl-book-cover-radius: var(--ebl-s2);
+  --ebl-book-title-margin-bottom: var(--ebl-s2);
+  --ebl-book-cover-min-width: 136px;
+}

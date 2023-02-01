@@ -1,0 +1,15 @@
+.doneTableStyles {
+  & tr > td:nth-of-type(2) {
+    min-width: 179px;
+  }
+  & tr > td:nth-of-type(3) {
+    min-width: 152px;
+  }
+}
+.assignmentExpired {
+  font-size: 16px;
+  white-space: pre-line;
+}
+.assignmentExpiredMessage {
+  white-space: pre-line;
+}

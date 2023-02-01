@@ -1,0 +1,67 @@
+:root {
+  --ebl-modal-margin: var(--ebl-s7);
+  --ebl-modal-title-margin-bottom: var(--ebl-s3);
+  --ebl-modal-text-margin-bottom: var(--ebl-s4);
+  --ebl-modal-label-margin-bottom: var(--ebl-s3);
+  --ebl-modal-input-margin-bottom: var(--ebl-s3);
+  --ebl-modal-date-picker-margin-bottom: var(--ebl-s3);
+  --ebl-modal-m-text-input-margin-bottom: var(--ebl-s3);
+  --ebl-modal-filter-margin-bottom: var(--ebl-s2);
+  --ebl-modal-button-group-margin-top: var(--ebl-s6);
+  --ebl-modal-padding: var(--ebl-s4);
+  --ebl-modal-header-icon-marginright: var(--ebl-s2);
+  --ebl-modal-alert-marginbottom: var(--ebl-s4);
+
+
+  /* --Roster Modal-- */
+  --ebl-modal-stepper-margin-bottom: var(--ebl-s6);
+  --ebl-modal-stepper-margin-bottom: var(--ebl-s5);
+  --ebl-modal-details-header-margin-bottom: var(--ebl-s2);
+  --ebl-modal-details-header-margin-shim: var(--ebl-s2);
+  --ebl-modal-details-block-margin-bottom: var(--ebl-s4);
+  --ebl-modal-alert-notif-margin-bottom: var(--ebl-s2);
+  --ebl-modal-search-width: 18.375rem; /* 294px */
+  --ebl-search-marginright: var(--ebl-s5);
+  --ebl-modal-radio-margin-bottom: var(--ebl-s2);
+  --ebl-modal-form-fields-header-margin-top: var(--ebl-s3);
+  --ebl-modal-form-fields-header-margin-bottom: var(--ebl-s2);
+  --ebl-modal-form-fields-block-margin-bottom: var(--ebl-s4);
+  --ebl-modal-upload-button-margin-left: var(--ebl-s2);
+  --ebl-modal-upload-button-margin-bottom: var(--ebl-s2);
+  --ebl-modal-checkbox-block-margin-bottom: var(--ebl-s4);
+  --ebl-modal-feedback-block-padding: var(--ebl-s4);
+
+  /* --Messaging Modal (success/error)-- */
+  --ebl-modal-toaster-margintop: var(--ebl-s3);
+  --ebl-modal-toaster-marginbottom: var(--ebl-s3);
+
+  /* --Book Modal-- */
+  --ebl-book-margin-right: var(--ebl-s4);
+  --ebl-book-margin-bottom: var(--ebl-s2);
+  --ebl-book-title-margin-bottom: var(--ebl-s2);
+  --ebl-modal-book-title-margin-bottom: var(--ebl-s3);
+  --ebl-modal-details-margin-bottom: var(--ebl-s3);
+
+  /* --Standard Detail Modal-- */
+  --ebl-modal-sdm-content-maxheight: 30.4375rem; /* 487px */
+  --ebl-modal-sdm-list-item-bordertop: solid 1px var(--ebl-card-border);
+  --ebl-modal-sdm-list-item-bordertop-color: var(--ebl-card-border);
+  --ebl-modal-sdm-list-item-bordertop-style: solid;
+  --ebl-modal-sdm-list-item-bordertop-width: 1px;
+
+  --ebl-modal-sdm-item-padding: var(--ebl-s4);
+  --ebl-modal-sdm-item-bg-color: var(--ebl-background);
+
+  --ebl-modal-sdm-item-status-correct-marginright: var(--ebl-s3);
+  --ebl-modal-sdm-item-status-icon-marginright: var(--ebl-s1);
+  --ebl-modal-sdm-item-status-correct-color: var(--ebl-signal-success);
+
+  /* --Virtual Classroom Passcode Modal-- */
+  --ebl-modal-button-shim-paddingLeft: var(--ebl-s2);
+  --ebl-modal-button-shim-paddingTop: var(--ebl-s3);
+
+  /* --Filter Modal-- */
+  --ebl-modal-filter-button-margintop: var(--ebl-s3);
+  --ebl-modal-filter-button-marginbottom: var(--ebl-s4);
+
+}

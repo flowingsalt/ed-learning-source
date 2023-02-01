@@ -1,0 +1,28 @@
+/*------------------------------------------------------------------
+ * Banner Variables
+ *
+ *----------------------------------------------------------------*/
+
+:root {
+  /* --Profile Banner-- */
+  --ebl-miniBanner-backButton-clearance: var(--ebl-page-header-margin-top);
+  --ebl-miniBanner-height-lg: 14.3125rem; /* 229px */
+  --ebl-miniBanner-height-sm: 10.5rem; /* 168px */
+
+  --ebl-miniBanner-image-width-lg: 20.625rem; /* 330px */
+  --ebl-miniBanner-image-height-lg: 10.3125rem; /* 165px */
+  --ebl-miniBanner-image-width-sm: 13rem; /* 208px */
+  --ebl-miniBanner-image-height-sm: 6.5rem; /* 104px */
+
+  /* --Virtual Classroom-- */
+  --ebl-vc-bannerbutton-marginleft: 1.25rem; /* 20px */
+  --ebl-vc-bannerbutton-marginright: 1.25rem; /* 20px */
+  --ebl-vc-bannerbutton-icon-paddingright: var(--ebl-s2);
+  --ebl-vc-bannerbutton-icon-paddingleft: var(--ebl-s2);
+
+  /* --Hero Banner-- */
+  --ebl-hero-image-margintop: var(--ebl-s4);
+  --ebl-hero-image-marginbottom: var(--ebl-s4);
+  --ebl-herobanner-title-marginbottom: var(--ebl-s2);
+  --ebl-herobanner-marginbottom: var(--ebl-s8);
+}

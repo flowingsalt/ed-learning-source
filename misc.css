@@ -1,0 +1,100 @@
+:root {
+  /* TODO: move to buttongroup.css */
+  --ebl-button-group-margintop-xl: var(--ebl-s7); /* 64px */
+  --ebl-button-group-margintop: var(--ebl-s2); /* 8px */
+  --ebl-button-group-marginbottom: var(--ebl-s3); /* 16px */
+  --ebl-button-group-margin-bottom: var(--ebl-s3); /* 16px */
+
+  /* TODO: move to label.css */
+  --ebl-label-margintop-lg: var(--ebl-s6);
+  --ebl-label-marginbottom: var(--ebl-s2);
+  --ebl-label-error-marginbottom: var(--ebl-s6);
+  --ebl-label-marginbottom-md: var(--ebl-s4);
+  --ebl-label-margin-bottom: var(--ebl-label-marginbottom); /* maps new var */
+
+  /* TODO: define back-button component or refactor; move to backbutton.css */
+  --ebl-back-button-margin-top: var(--ebl-s4);
+  --ebl-backbutton-icon-marginleft: var(--ebl-s2);
+  --ebl-backbutton-margin: var(--ebl-s2);
+
+  /* TODO: move to filter-component.css */
+  --ebl-filterblock-margintop: var(--ebl-s4);
+  --ebl-filterblock-header-marginbottom: var(--ebl-s3);
+  --ebl-filterblock-inputs-marginbottom: var(--ebl-s4);
+  --ebl-filterblock-marginbottom: var(--ebl-s4);
+  --ebl-filterblock-button-marginleft: var(--ebl-s4);
+
+  /* TODO: remove, to be subsumed by per-component spacing when globally available */
+  --ebl-content-margin-3: var(--ebl-s3);
+  --ebl-content-margin-4: var(--ebl-s4);
+  --ebl-content-margin-6: var(--ebl-s6);
+
+  /* TODO: move to progressbar component file */
+  --ebl-linear-progress-margin: var(--ebl-s2);
+  --ebl-linear-progress-padding: var(--ebl-s4);
+
+  /* TODO: move to component-specific file when ready */
+  --ebl-badge-margintop: var();
+  --ebl-badge-marginright: 0.8rem; /* 20px */
+  --ebl-badge-marginleft: var(--ebl-s2);
+
+  /* TODO: encapsulate hero banner styles and substyles to separate file, move this when ready */
+  --ebl-hero-image-margintop: var(--ebl-s4);
+  --ebl-hero-image-marginbottom: var(--ebl-s4);
+  --ebl-herobanner-title-marginbottom: var(--ebl-s2);
+  --ebl-herobanner-marginbottom: var(--ebl-s8);
+
+  /* PL styles -- to be moved at a future date */
+  --ebl-avatarblock-avatar-marginbottom: var(--ebl-s4);
+  --ebl-avatarblock-avatar-marginbottom-md: var(--ebl-s5);
+  --ebl-avatarblock-subtitle-marginbottom: var(--ebl-s4);
+  --ebl-avatarblock-divider-marginbottom: var(--ebl-s4);
+  --ebl-authorpage-content-marginbottom: var(--ebl-s8);
+  --ebl-authorpage-content-marginbottom-sm: var(--ebl-s7);
+
+  /* PL Author page - Single/Multiple Author treatments */
+  --ebl-avatarblocksm-margintop: var(--ebl-s3);
+  --ebl-avatarblocksm-marginbottom: var(--ebl-s6);
+  --ebl-avatarblocksm-text-marginleft: var(--ebl-s3);
+  --ebl-avatarblocksm-text-marginleft-sm: var(--ebl-s2);
+  --ebl-avatarblocksm-marginbottom-sm: var(--ebl-s5);
+  --ebl-avatarblocksm-separator: var(--ebl-s6);
+  --ebl-avatarblocksm-separator-sm: var(--ebl-s3);
+  --ebl-avatarblocksm-popover-marginleft: var(--ebl-s4);
+
+  /* Library Landing page */
+  --ebl-librarypage-searchheader-marginbottom: var(--ebl-s4);
+  --ebl-librarypage-contentblock-marginbottom: var(--ebl-s8);
+  --ebl-library-gridheader-marginbottom: var(--ebl-s5);
+
+  /* PL 404 Page Vars */
+  --ebl-pageerror-margintop: var(--ebl-s3);
+  --ebl-pageerror-heading-marginbottom: var(--ebl-s2);
+  --ebl-pageerror-subhead-marginbottom: var(--ebl-s6);
+  --ebl-pageerror-content-marginbottom: var(--ebl-s6);
+
+  --ebl-pagination-margintop: var(--ebl-s3);
+  --ebl-pagination-marginbottom: var(--ebl-s3);
+
+   /* Licence Permission Page */
+   --ebl-divider—horizontal-marginbottom: var(--ebl-s3); /* 16px */
+   --ebl-divider—vertical-marginleft: var(--ebl-s3); /* 16px */
+   --ebl-divider—vertical-marginright: var(--ebl-s3); /* 16px */
+   --ebl-text—marginleft: var(--ebl-s2); /* 8px */
+  /* REMAPPED TO REMOVE EMDASH CHARACTER IN VAR NAME */
+   --ebl-divider-horizontal-marginbottom: var(--ebl-s3); /* 16px */
+   --ebl-divider-vertical-marginleft: var(--ebl-s3); /* 16px */
+   --ebl-divider-vertical-marginright: var(--ebl-s3); /* 16px */
+   --ebl-text-marginleft: var(--ebl-s2); /* 8px */
+
+  /* Teacher Dashboard */
+   --ebl-carousel-marginbottom: var(--ebl-s6);
+   --ebl-assignments-block-marginbottom: var(--ebl-s5);
+
+  /* Generic Content Block */
+   --ebl-contentblock-marginbottom: var(--ebl-s6); 
+   --ebl-contentblock-label-marginbottom: var(--ebl-s3);
+   --ebl-contentblock-icon-primary-marginright: var(--ebl-s3);
+   --ebl-contentblock-icon-secondary-marginright: var(--ebl-s2);
+   --ebl-contentblock-icon-shim: var(--ebl-s0);
+}

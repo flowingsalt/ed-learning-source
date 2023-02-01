@@ -1,0 +1,152 @@
+:global .redux-toastr {
+  position: fixed;
+  top: 96px;
+  right: 16px;
+  z-index: 9999999;
+
+  & .top-right > span {
+    display: block;
+    right: 16px;
+    color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    font-size: 14.4px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.24);
+    width: 300px;
+    margin-bottom: 16px;
+  }
+
+  & .toastr {
+    position: relative;
+
+    & > div {
+      display: flex;
+      padding: 30px;
+    }
+
+    & .rrt-left-container .rrt-holder {
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    & .rrt-middle-container {
+      margin-left: 24px;
+    }
+
+    & .rrt-right-container {
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      & button {
+        width: 32px;
+        height: 32px;
+        font-size: 18px;
+        text-align: center;
+        padding: 0;
+        margin: var(--spaceSmallExtra);
+        color: white;
+      }
+    }
+
+    & .toastr-status {
+      &.success {
+        background-color: #378500;
+      }
+
+      &.warning {
+        background-color: #fd7b24;
+      }
+
+      &.info {
+        background-color: #58abc3;
+      }
+
+      &.error {
+        background-color: #cc1416;
+      }
+    }
+
+    &.rrt-info {
+      background-color: #58abc3;
+    }
+
+    &.rrt-success {
+      background-color: #378500;
+    }
+
+    &.rrt-warning {
+      background-color: #fd7b24;
+    }
+
+    &.rrt-error {
+      background-color: #cc1416;
+    }
+  }
+
+  & svg {
+    width: 36px;
+    height: 36px;
+    fill: white;
+  }
+
+  & .close-toastr {
+    background: none;
+    border-radius: 0;
+  }
+
+  & .rrt-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  & .animated {
+    &.fadeIn {
+      -webkit-animation-name: fadeIn;
+      animation-name: fadeIn;
+      -webkit-animation-duration: 0.7s;
+      animation-duration: 0.7s;
+    }
+
+    &.fadeOut {
+      -webkit-animation-name: fadeOut;
+      animation-name: fadeOut;
+      -webkit-animation-duration: 0.3s;
+      animation-duration: 0.3s;
+    }
+  }
+}
+
+@-webkit-keyframes :global(fadeIn) {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes :global(fadeIn) {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes :global(fadeOut) {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes :global(fadeOut) {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,35 @@
+.pageHeader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 200px;
+  justify-content: space-between;
+  align-items: flex-end;
+  & h1 {
+    font-size: var(--fontSizeU1_5);
+    font-weight: var(--fontWeightBold);
+    margin: var(--space) 0 0 0;
+    flex: 1 1 0px;
+    white-space: normal;
+    padding-right: var(--spaceTiny);
+    font-family: inherit;
+  }
+  & [class*='dropdown'] {
+    margin-top: var(--space);
+  }
+}
+
+@media (max-width: 768px) {
+  .pageHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .pageHeader button[id*='studentWritableLaunch'] {
+    margin-top: var(--spaceSmall);
+  }
+}
+@media (max-width: 320px) {
+  .pageHeader {
+    flex-direction: column;
+  }
+}

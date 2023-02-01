@@ -1,0 +1,21 @@
+/*------------------------------------------------------------------
+ * Linear Progress Variables
+ *
+ * @zeplin https://zpl.io/VQngmZP
+ *----------------------------------------------------------------*/
+
+:root {
+  --ebl-linear-progress-text-color: var(--ebl-signal-success);
+
+  --ebl-linear-progress-range-color: var(--ebl-border-hairline-gray);
+  --ebl-linear-progress-value-color: var(--ebl-signal-success);
+
+  --ebl-linear-progress-margin-left: var(--ebl-s1); /* 4px */
+
+  --ebl-linear-progress-bar-height: 0.5rem; /* 8px */
+  --ebl-linear-progress-bar-radius: calc(
+    var(--ebl-linear-progress-bar-height) / 2
+  );
+  --ebl-linear-progress-margin: var(--ebl-s2); /* 8px */
+  --ebl-linear-progress-padding: var(--ebl-s4); /* 24px */
+}

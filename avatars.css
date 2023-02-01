@@ -1,0 +1,70 @@
+/*------------------------------------------------------------------
+ * Avatar Variables
+ *
+ * @zeplin https://zpl.io/VKQBjR8
+ *         https://zpl.io/amwAe5e (avatar menu)
+ *----------------------------------------------------------------*/
+
+:root {
+  /* --Avatars-- */
+  --ebl-avatar-base: 16px;
+
+  --ebl-avatar-sm: 2rem; /* 32px */
+  --ebl-avatar-md: 3.5rem; /* 56px */
+  --ebl-avatar-lg: 7rem; /* 112px */
+  --ebl-avatar-xl: 160px; /* 160px */
+
+  --ebl-avatar-font-family: var(--ebl-wf-headings);
+
+  --ebl-avatar-sm-font-size: 1rem; /* 16px */
+  --ebl-avatar-sm-letter-spacing: 0.01875rem; /* .3px */
+  --ebl-avatar-sm-weight: var(--ebl-wf-headings-weight);
+
+  --ebl-avatar-md-font-size: 1.5rem; /* 24px */
+  --ebl-avatar-md-letter-spacing: 0.016875rem; /* .27px */
+  --ebl-avatar-md-weight: var(--ebl-wf-headings-weight);
+
+  --ebl-avatar-lg-font-size: 3.5rem; /* 56px */
+  --ebl-avatar-lg-letter-spacing: 0.03875rem; /* .62px */
+  --ebl-avatar-lg-weight: var(--ebl-wf-headings-weight-bold);
+
+  --ebl-avatar-xl-font-size: 4rem; /* 64px */
+  --ebl-avatar-xl-letter-spacing: 0.044375rem; /* .71px */
+  --ebl-avatar-xl-weight: var(--ebl-wf-headings-weight-bold);
+
+  /* --Avatar Menu (in top nav)-- */
+  --ebl-m-avatar-size: var(--ebl-avatar-sm);
+  --ebl-m-avatar-hover-active-size: 2.5rem; /* 40px */
+  --ebl-m-avatar-active-radius: 0; /* square */
+
+  --ebl-m-avatar-bg-color: var(--ebl-brand);
+  --ebl-m-avatar-text-color: var(--ebl-text-black);
+
+  --ebl-m-avatar-transition-duration: 150ms;
+  --ebl-m-avatar-transition: cubic-bezier(
+    0.55,
+    0.055,
+    0.675,
+    0.19
+  ); /* Ease-in cubic */
+
+  /* PL styles */
+  --ebl-avatarblock-padding: var(--ebl-s2);
+  --ebl-avatarblock-avatar-marginbottom: var(--ebl-s4);
+  --ebl-avatarblock-avatar-marginbottom-md: var(--ebl-s5);
+  --ebl-avatarblock-subtitle-marginbottom: var(--ebl-s4);
+  --ebl-avatarblock-divider-marginbottom: var(--ebl-s4);
+  --ebl-authorpage-content-marginbottom: var(--ebl-s8);
+  --ebl-authorpage-content-marginbottom-sm: var(--ebl-s7);
+
+  /* PL Author page - Single/Multiple Author treatments */
+  --ebl-avatarblocksm-margintop: var(--ebl-s3);
+  --ebl-avatarblocksm-marginbottom: var(--ebl-s6);
+  --ebl-avatarblocksm-text-marginleft: var(--ebl-s3);
+  --ebl-avatarblocksm-text-marginleft-sm: var(--ebl-s2);
+  --ebl-avatarblocksm-marginbottom-sm: var(--ebl-s5);
+  --ebl-avatarblocksm-separator: var(--ebl-s6);
+  --ebl-avatarblocksm-separator-sm: var(--ebl-s3);
+  --ebl-avatarblocksm-popover-marginleft: var(--ebl-s4);
+  
+}

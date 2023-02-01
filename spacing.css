@@ -1,0 +1,19 @@
+/*------------------------------------------------------------------
+ * CTS Spacing Variables
+ *
+ * @zeplin https://zpl.io/blkQAQe
+ *----------------------------------------------------------------*/
+
+:root {
+  --ebl-spacing-base: 16px;
+
+  --ebl-s0: 0.125rem; /* 2px */
+  --ebl-s1: 0.25rem; /* 4px */
+  --ebl-s2: 0.5rem; /* 8px */
+  --ebl-s3: 1rem; /* 16px */
+  --ebl-s4: 1.5rem; /* 24px */
+  --ebl-s5: 2rem; /* 32px */
+  --ebl-s6: 2.5rem; /* 40px */
+  --ebl-s7: 4rem; /* 64px */
+  --ebl-s8: 4.5rem; /* 72px */
+}

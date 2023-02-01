@@ -1,0 +1,292 @@
+@import url('./nedColors.css');
+
+:root {
+  --colorBase: var(--white);
+  --colorContrast: var(--black);
+  --colorShade1: var(--coolGrayC5);
+  --colorShade2: var(--grayC10);
+  --colorShade3: var(--warmGrayC15);
+  --colorShade4: var(--grayC25);
+  --colorShade5: var(--grayC40);
+  --colorShade6: var(--grayC50);
+  --colorShade7: var(--coolGrayC70);
+  --colorShade8: var(--grayC65);
+  --colorShade9: var(--grayC70);
+  --colorShade10: var(--grayC20);
+  --colorShade11: var(--coolGrayC25);
+  --colorShade12: var(--hmhDarkGray);
+  --colorShade13: var(--purpleC5);
+  --colorShade14: var(--coolGrayC65);
+  --colorShade15: var(--grayC75);
+  --colorShade16: var(--coolGrayC60);
+  --colorShade17: var(--grayC45);
+  --colorShade18: var(--grayC5);
+  --outline: var(--coolGrayC15);
+  --colorFocus: var(--blueC50);
+  --colorFocusBase: var(--blueC10);
+  --colorFocusContrast: var(--blueC60);
+  --colorFocusRipple: var(--blueC70);
+  --colorFocusRippleLight: var(--blueC20);
+  --colorFocusLight: var(--blueC5);
+  --colorFocusDisabled: var(--blueC15);
+  --colorError: var(--redC50);
+  --colorSuccess: var(--greenC50);
+  --colorWarning: var(--goldenC45);
+  --colorSecondary: var(--grayC50);
+  --colorSecondaryBase: var(--grayC10);
+  --colorSecondaryContrast: var(--grayC60);
+  --colorSecondaryRipple: var(--grayC70);
+  --colorSecondaryRippleLight: var(--grayC20);
+  --colorSecondaryDisabled: var(--grayC15);
+  --colorSecondaryBase2: var(--grayC30);
+
+  --colorSignalIncorrectLight: var(--redC10);
+  --colorSignalIncorrectDark: var(--redC50);
+
+  --colorInputErrorBackground: var(--redC5);
+  --colorInputErrorBorder: var(--redC50);
+  --colorInputReadonlyBackground: var(--grayC5);
+  --colorInputReadonlyBorder: var(--grayC20);
+
+  --colorOutline: var(--outlineAlly);
+  --colorDiscover: var(--goldenC30);
+  --colorDiscoverAlt: var(--goldenC10);
+  --colorDiscoverGradient: linear-gradient(
+    to bottom,
+    var(--goldenC20),
+    var(--goldenC30)
+  );
+  --colorDiscoverStudent: var(--goldenC10);
+  --colorPlans: var(--turquoiseC50);
+  --colorPlansAlt: var(--turquoiseC10);
+  --colorPlansStudent: var(--turquoiseC5);
+  --colorAssignments: var(--blueC30);
+  --colorAssignmentsAlt: var(--blueC10);
+  --colorAssignmentsGradient: linear-gradient(
+    to bottom,
+    var(--blueC35),
+    var(--blueC40)
+  );
+  --colorAssignmentsStudent: var(--blueC5);
+  --colorAssignmentsStudentTabs: var(--blueC50);
+  --colorDataAndReports: var(--greenC30);
+  --colorDataAndReportsAlt: var(--greenC10);
+  --colorDataAndReportsGradient: linear-gradient(
+    to bottom,
+    var(--greenC40),
+    var(--greenC50)
+  );
+  --colorDataAndReportsStudent: var(--greenC5);
+  --colorGroups: var(--purpleC30);
+  --colorGroupsAlt: var(--purpleC10);
+  --colorGroupsStudent: var(--purpleC5);
+  --colorProducts: var(--aquaC30);
+  --colorProductsAlt: var(--aquaC45);
+  --colorProductsStudent: var(--greenC5);
+  --colorClassManagement: var(--orangeC35);
+  --colorClassManagementAlt: var(--orangeC10);
+  --colorClassManagementStudent: var(--orangeC5);
+  --colorClassDefault: var(--blueC35);
+  --colorClassHover: var(--goldenC10);
+  --colorMenuSVG: var(--grayC62);
+  --colorNeader: var(--hmhDarkGray);
+  --colorNavBG: var(--black);
+  --colorBG: var(--grayC10);
+  --colorModuleCardIndex: var(--hmhGolden);
+  --colorModuleCardBackground: var(--coolGrayC70);
+  --colorCarouselArrowHover: var(--goldenC5);
+  --colorPopupDialogBoxOverlayBackground: var(--warmGrayC74);
+  --colorPlanItemActive: var(--turquoiseC15);
+  --colorPlanItemHover: var(--turquoiseC5);
+  --colorRostering: var(--hmhGolden);
+  --colorBackgroundError: var(--redC5);
+  --colorErrorText: var(--redC50);
+  --colorTableRed: var(--redC30);
+  --colorTableRedStudent: var(--redC5);
+  --colorTableAqua: var(--aquaC30);
+  --colorTableAquaStudent: var(--aquaC5);
+  --colorTableCerise: var(--ceriseC30);
+  --colorTableCeriseStudent: var(--ceriseC5);
+  --colorTableYellow: var(--yellowC30);
+  --colorTableYellowStudent: var(--yellowC10);
+
+  --spaceHalfTiny: 2px;
+  --spaceTiny: 4px;
+  --spaceSmall: 8px;
+  --spaceSmallExtra: 10px;
+  --spaceSmallPlus: 12px;
+  --spaceHalf: 16px;
+  --spaceHalfPlus: 18px;
+  --spaceHalfMedium: 20px;
+  --spaceHalfMediumPlus: 22px;
+  --spaceHalfMediumExtra: 24px;
+  --spaceHalfMediumMore: 28px;
+  --space: 32px;
+  --spaceMedium: 40px;
+  --spaceMediumMore: 48px;
+  --spaceGrande: 54px;
+  --spaceDouble: 64px;
+  --spaceLarge: 72px;
+  --spaceVenti: 80px;
+  --spaceXL: 96px;
+  --maxWidth: 1268px;
+  --headerHeight: 80px;
+  --messageMinHeight: 210px;
+
+  --borderHalfLineTiny: 1px;
+  --borderLineTiny: 2px;
+  --borderRadiusTiny: 4px;
+  --borderRadiusSmall: 6px;
+  --borderRadiusMedium: 8px;
+
+  --fontSizeD4: 9.6px;
+  --fontSizeD3: 11.2px;
+  --fontSizeD2: 12.8px;
+  --fontSizeD1: 14.4px;
+  --fontSize: 16px;
+  --fontSizeU0: 18px;
+  --fontSizeU1: 20.8px;
+  --fontSizeU1_5: 24px;
+  --fontSizeU2: 27.2px;
+  --fontSizeU3: 35.2px;
+  --fontSizeU4: 46.4px;
+
+  --fontWeightNormal: 400;
+  --fontWeightBold: 600;
+
+  --lineHeightHeading: 1.17;
+
+  --letterSpacingTiny: 0.2px;
+  --letterSpacingHeading: 0.3px;
+
+  --iconSizeRegular: 24px;
+  --iconSizeSmall: 16px;
+  --iconSizeLarge: 32px;
+  --iconSizeXlarge: 64px;
+  --iconSizeVenti: 48px;
+
+  --licenseTileWidth: 290px;
+  --licenseTileHeight: 160px;
+  --licenseLogoWidth: 59px;
+  --licenseLogoHeight: 59px;
+
+  --heightMenuItem: 37px;
+  --heightSmallBanner: 47px;
+  --minWidthBanner: 320px;
+  --maxWidthBanner: 791px;
+
+  --popupDialogWidth: 618px;
+  --popupDialogHeight: 266px;
+  --popupDialogTitleWidth: 536px;
+  --popupDialogHeaderHeight: 62px;
+  --popupDialogContentHeight: 55vh;
+  --popupDialogHeaderBorderBottom: 2px;
+  --popupDialogHeaderLineHeight: 1.17;
+  --popupDialogBoxShadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.5);
+  --popupDialogBoxOverlayBackground: transparent;
+
+  --popupInfoWidth: 270px;
+  --popupButtonWidth: 220px;
+  --popupButtonMargin: 24px;
+
+  --allSchoolsFilterWidth: 86%;
+  --allSchoolsFilterHeight: 40px;
+  --allSchoolsFilterMargin: 0px 0px 20px 32px;
+  --allSchoolsFilterHeaderWidth: 35px;
+
+  --confirmationDialogWidth: 618px;
+  --confirmationDialogHeight: 266px;
+  --confirmationDialogTitleWidth: 536px;
+  --confirmationDialogHeaderHeight: 62px;
+  --confirmationDialogContentHeight: 55vh;
+  --confirmationDialogHeaderBorderBottom: 2px;
+  --confirmationDialogHeaderLineHeight: 1.17;
+  --confirmationDialogBoxShadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.26);
+  --confirmationDialogBoxOverlayBackground: rgba(60, 60, 60, 0.7);
+
+  --tableHeadingColor: var(--grayC50);
+
+  --subHeaderIconMinHeight: 100px;
+
+  --tooltipDialogWideWidth: 307px;
+  --tooltipDialogWideHeight: 154px;
+  --tooltipDialogLongWidth: 290px;
+  --tooltipDialogLongHeight: 171px;
+  --tooltipDialogBorderWidth: 1px;
+  --tooltipDialogPointerSize: 18px;
+  --tooltipDialogPointerThickness: 2px;
+  --tooltipDialogBorderColor: var(--grayC40);
+  --tooltipDialogPointerFillColor: var(--white);
+  --tooltipDialogColorWarning: var(--redC45);
+
+  --tooltipDialogSectionLeftOrRightWidth: 18px;
+  --tooltipDialogSectionLeftOrRightHeight: 145px;
+  --tooltipDialogSectionCenterWidth: 290px;
+  --tooltipDialogTitleWidth: 290px;
+  --tooltipDialogHeaderHeight: 0px;
+  --tooltipDialogContentHeight: 91px;
+  --tooltipDialogHeaderBorderBottom: 0px;
+  --tooltipDialogHeaderLineHeight: 1.17;
+
+  --tableMaxColumnWidth: 200px;
+
+  --manageGroupsCollectionCardWidth: 402px;
+  --manageGroupsCollectionCardHeight: 295px;
+  --reportingBand0: var(--grayC40);
+  --reportingBand0Base: var(--grayC35);
+  --reportingBand0Contrast: var(--grayC50);
+  --reportingBand3: var(--greenC40);
+  --reportingBand3Base: var(--greenC35);
+  --reportingBand3Contrast: var(--greenC45);
+  --reportingBand3Contrast2: var(--greenC50);
+  --reportingBand2: var(--goldenC30);
+  --reportingBand2Base: var(--goldenC25);
+  --reportingBand2Contrast: var(--goldenC35);
+  --reportingBand2Contrast2: var(--orangeBand);
+  --reportingBand1: var(--orangeC45);
+  --reportingBand1Base: var(--orangeC40);
+  --reportingBand1Contrast: var(--orangeC50);
+  --reportingChartFocus: var(--blueC40);
+  --groupsPurple: var(--purpleC45);
+  --groupsGray: var(--coolGrayC5);
+  --groupsScroll: var(--coolGrayC10);
+  --groupsScrollThumb: var(--grayC20);
+  --groupsSeparator: var(--grayC25);
+  --lightGray: var(--hmhLightGray);
+  --bandGreen: var(--greenC40);
+  --bandGreen2: var(--greenC15);
+  --bandGolden: var(--hmhGolden);
+  --bandGolden2: var(--hmhGolden2);
+  --bandGolden3: var(--yellowC15);
+  --bandOrange: var(--orangeC45);
+  --bandOrange3: var(--orangeC15);
+  --bandGray: var(--grayC40);
+  --bandAqua: var(--aquaM20);
+  --notificationRed: var(--redC45);
+  --notificationOrange: var(--orangeC35);
+  --notificationGreen: var(--greenC40);
+  --plansMenuGray: var(--grayC5);
+  --plansMenuIcon: var(--grayC50);
+  --assigned: var(--turquoiseC30);
+  --unassigned: var(--grayC25);
+  --accessibleFocus: #c70092;
+  --dropshadowA: none;
+  --dropshadowB: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  --dropshadowC: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  --dropshadowD: 0 3px 4px 0 rgba(0, 0, 0, 0.14),
+    0 3px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+  --dropshadowE: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+    0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  --dropshadowF: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+    0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+  --dropshadowG: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  --dropshadowH: 0 9px 12px 1px rgba(0, 0, 0, 0.14),
+    0 3px 16px 2px rgba(0, 0, 0, 0.12), 0 5px 6px -3px rgba(0, 0, 0, 0.2);
+  --dropshadowI: 0 12px 17px 2px rgba(0, 0, 0, 0.14),
+    0 5px 22px 4px rgba(0, 0, 0, 0.12), 0 7px 8px -4px rgba(0, 0, 0, 0.2);
+  --dropshadowJ: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+    0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+}

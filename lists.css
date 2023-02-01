@@ -1,0 +1,26 @@
+/*------------------------------------------------------------------
+ * Lists
+ *
+ * @zeplin https://zpl.io/adwA1N7
+ *----------------------------------------------------------------*/
+
+:root {
+  --ebl-li-font-size: var(--ebl-sh3);
+  --ebl-li-line-height: var(--ebl-sh3-line-height);
+  --ebl-li-letter-spacing: var(--ebl-sh3-letter-spacing);
+  --ebl-li-color: var(--ebl-sh3-color);
+  --ebl-li-weight: var(--ebl-sh3-weight);
+
+  --ebl-li-margin-bottom: var(--ebl-s3);
+  --ebl-li-large-marginbottom: var(--ebl-s7);
+
+  --ebl-li-icon-margin-right: var(--ebl-s3);
+
+  --ebl-simple-list-margintop: var(--ebl-s3);
+
+  /* LIST VARIANT USED W ACCORDION IN TOC COMPONENT */
+  --ebl-list-generic1-icon-marginright: var(--ebl-s2);
+  --ebl-list-generic1-minwidth: 19rem;/* 304px */
+  --ebl-list-generic1-listitem-height: calc(var(--ebl-s6) + var(--ebl-s3));
+  --ebl-list-generic1-padding: var(--ebl-s2);
+}

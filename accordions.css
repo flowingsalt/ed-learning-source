@@ -1,0 +1,27 @@
+:root {
+    --ebl-accordion-header-margintop: var(--ebl-s0);
+    --ebl-accordion-padding: var(--ebl-s3);
+    --ebl-accordion-radio-marginbottom: var(--ebl-s2);
+    --ebl-accordion-label-marginbottom: var(--ebl-s2);
+    --ebl-accordion-input-marginbottom: var(--ebl-s3);
+    --ebl-accordion-formfields-marginbottom: var(--ebl-s4);
+    --ebl-accordion-body-marginbottom: var(--ebl-s4);
+    --ebl-accordion-checkbox-marginbottom: var(--ebl-s2);
+    --ebl-accordion-checkbox-block-marginbottom: var(--ebl-s3);
+    --ebl-accordion-label-slim-marginbottom: var(--ebl-s2);
+    --ebl-accordion-label-marginbottom-lg: var(--ebl-s5);
+    --ebl-accordion-error-marginbottom: var(--ebl-s6);
+    --ebl-accordion-label-margintop: var(--ebl-s3);
+    --ebl-accordion-icon-marginleft: var(--ebl-s2);
+    --ebl-accordion-icon-marginright: var(--ebl-s2);
+
+    /* ADDED FOR TOC ACCORDION */
+
+    --ebl-accordion-header-icon-marginright: var(--ebl-s3);
+    --ebl-accordion-header-padding: var(--ebl-s3) var(--ebl-s4) var(--ebl-s3) var(--ebl-s4);
+    --ebl-accordion-minwidth: 20rem; /* 320px */;
+    --ebl-accordion-borderradius: var(--ebl-s2);
+    --ebl-accordion-header-bg-padding: var(--ebl-s2);
+    --ebl-accordion-list-borderradius: var(--ebl-s2);
+
+}

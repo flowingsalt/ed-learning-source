@@ -1,0 +1,4 @@
+var PROGRAM_IDS = {
+  R180FS: ['READ180_A_EN_NA', 'READ180_B_EN_NA', 'READ180_C_EN_NA', 'R180FS']
+};
+export default PROGRAM_IDS;

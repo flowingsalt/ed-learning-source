@@ -1,0 +1,137 @@
+/*------------------------------------------------------------------
+ * Button Variables
+ *
+ * @zeplin https://zpl.io/bJ0BvvJ
+ * @zeplin https://zpl.io/2pGNxQr (xl button)
+ *----------------------------------------------------------------*/
+
+:root {
+  /* --General Button Variables-- */
+  --ebl-button-height-lg: 2.5rem; /* 40px */
+  --ebl-button-height-sm: 2rem; /* 32px */
+  --ebl-button-text-size-lg: 1rem; /* 16px */
+  --ebl-button-text-size-sm: 0.875rem; /* 14px */
+  --ebl-button-radius: 0.25rem; /* 4px */
+  --ebl-button-hover-shadow: var(--ebl-shadow-3);
+  --ebl-button-m-margin: var(--ebl-s3);
+  --ebl-button-paddingleft: var(--ebl-s4); /* 24px */
+  --ebl-button-paddingright: var(--ebl-s4); /* 24px */
+  --ebl-button-icon-padding: var(--ebl-s2); /* 8px */
+
+  /* LG Button styles (i.e., connected program buttons) */
+  --ebl-button-lg-maxwidth: 18rem; /* 288px */
+  --ebl-button-lg-minwidth: 7.938rem; /* 127px */
+  --ebl-button-lg-padding: var(--ebl-s3);
+  --ebl-button-lg-maxheight: 9.6875rem; /* 155px; */
+  --ebl-button-lg-minheight: 5.625rem; /* 90px; */
+
+  /* XL Button Styles */
+  --ebl-button-xl-min-width: 8.5rem; /* 136px */
+  --ebl-button-xl-padding: var(--ebl-s4);
+  --ebl-button-xl-icon-margin-bottom: var(--ebl-s2);
+
+  --ebl-button-xl-m-icon-margintop: calc(var(--ebl-s2) * -1); /* -4px */
+  --ebl-button-xl-m-padding: var(--ebl-s3) var(--ebl-s4); /* 16px 24px */
+  --ebl-button-xl-m-icon-marginright: var(--ebl-s3);
+
+  /* 24px horizontal padding */
+  --ebl-button-padding: var(--ebl-s4);
+
+  /* 16px for any spacing between button text & icon */
+  --ebl-button-icon-text-padding: var(--ebl-s3);
+
+  /* --Contained Buttons-- */
+  --ebl-button-contained-text-color: var(--ebl-text-white);
+  --ebl-button-contained-text-decoration: none;
+  --ebl-button-contained-normal-bg: var(--ebl-action-color);
+  --ebl-button-contained-hover-bg: var(--ebl-button-contained-normal-bg);
+  --ebl-button-contained-active-bg: var(--ebl-dark-action-color);
+  --ebl-button-contained-selected-bg: var(--ebl-white);
+  --ebl-button-contained-selected-border-color: var(--ebl-action-color);
+  --ebl-button-contained-selected-border: solid 1px var(--ebl-button-contained-selected-border-color);
+  --ebl-button-contained-selected-text-color: var(--ebl-action-color);
+  --ebl-button-disabled-bg: var(--ebl-disabled-color);
+  --ebl-button-disabled-text-color: var(--ebl-text-white);
+  --ebl-button-disabled-blend-mode: multiply;
+
+  /* --Outlined Buttons-- */
+  --ebl-button-outlined-text-color: var(--ebl-action-color);
+  --ebl-button-outlined-text-decoration: none;
+  --ebl-button-outlined-normal-bg: var(--ebl-button-contained-selected-bg);
+  --ebl-button-outlined-normal-border: solid 1px var(--ebl-button-contained-selected-border-color);
+  --ebl-button-outlined-hover-bg: var(--ebl-button-outlined-normal-bg);
+  --ebl-button-outlined-hover-border: solid 1px var(--ebl-button-contained-selected-border-color);
+  --ebl-button-outlined-active-bg: var(--ebl-light-action-color);
+  --ebl-button-outlined-active-border: var(--ebl-action-color);
+  --ebl-button-outlined-disabled-bg: transparent;
+  --ebl-button-outlined-disabled-border-color: var(--ebl-disabled-color);
+  --ebl-button-outlined-disabled-border: solid 1px var(--ebl-button-outlined-disabled-border-color);
+  --ebl-button-outlined-disabled-text-color: var(--ebl-disabled-color);
+
+  /* --Frameless Buttons-- */
+  --ebl-button-frameless-text-color: var(--ebl-action-color);
+  --ebl-button-frameless-text-decoration: underline;
+  --ebl-button-frameless-normal-bg: var(--ebl-white);
+  --ebl-button-frameless-normal-border: none;
+  --ebl-button-frameless-hover-bg: var(--ebl-button-frameless-normal-bg);
+  --ebl-button-frameless-hover-border: var(
+    --ebl-button-frameless-normal-border
+  );
+  --ebl-button-frameless-active-bg: var(--ebl-light-action-color);
+  --ebl-button-frameless-active-border-color: var(--ebl-action-color);
+  --ebl-button-frameless-active-border: var(--ebl-button-frameless-active-border-color);
+
+  --ebl-button-frameless-disabled-bg: transparent;
+  --ebl-button-frameless-disabled-border: none;
+  --ebl-button-frameless-disabled-text-color: var(--ebl-disabled-color);
+
+  /* --Toggle Buttons-- */
+  --ebl-toggle-button-height-lg: 2.125rem; /* 34px */
+  --ebl-toggle-button-height-sm: 1.625rem; /* 26px */
+  --ebl-button-toggle-container-border-color: var(--ebl-action-color);
+  --ebl-button-toggle-container-border: solid 1px var(--ebl-button-toggle-container-border-color);
+  --ebl-button-toggle-container-border-disabled-color: var(--ebl-disabled-color);
+  --ebl-button-toggle-container-border-disabled: var(--ebl-button-toggle-container-border-disabled-color);
+  --ebl-button-toggle-container-padding: 0.125rem; /* 2px */
+  --ebl-button-toggle-container-radius: 0.25rem; /* 4px */
+  --ebl-button-toggle-radius: 0.125rem; /* 2px */
+  --ebl-button-toggle-text-color: var(--ebl-action-color);
+  --ebl-button-toggle-bg: var(--ebl-white);
+  --ebl-button-toggle-text-decoration: underline;
+  --ebl-button-toggle-active-text-color: var(--ebl-text-white);
+  --ebl-button-toggle-active-bg: var(--ebl-action-color);
+  --ebl-button-toggle-active-text-decoration: none;
+  --ebl-button-toggle-hover-bg: var(--ebl-light-gray);
+
+  --ebl-button-toggle-filter-height: 2.5rem; /* 40px */
+  --ebl-button-toggle-filter-border-color: var(--ebl-card-border-color);
+  --ebl-button-toggle-filter-border: var(--ebl-button-toggle-filter-border-color);
+  --ebl-button-toggle-filter-padding: var(--ebl-s4);
+  --ebl-button-toggle-filter-margin: var(--ebl-s1);
+  --ebl-button-toggle-filter-radius: calc(var(--ebl-button-toggle-filter-height) / 2);
+
+  /* --Button Group-- */
+  --ebl-button-group-margintop-xl: var(--ebl-s7); /* 64px */
+  --ebl-button-group-margintop: var(--ebl-s2); /* 8px */
+  --ebl-button-group-marginbottom-sm: var(--ebl-s2); /* 8px */
+  --ebl-button-group-marginbottom: var(--ebl-s3); /* 16px */
+  --ebl-button-group-margin-bottom: var(--ebl-button-group-marginbottom);
+
+  /* --Program Cards/Button Block-- */
+  --ebl-button-block-marginbottom: var(--ebl-s6);
+
+  /* --Chips-- */ 
+  --ebl-button-chip-padding: var(--ebl-s1) var(--ebl-s1) var(--ebl-s1) var(--ebl-s5);
+  --ebl-button-chip-margin: var(--ebl-s2);
+  --ebl-button-chip-icon-marginleft: var(--ebl-s2);
+
+  --ebl-button-chip-bg: var(--ebl-white);
+  --ebl-button-chip-border: var(--ebl-card-border-color);
+  --ebl-button-chip-bg-hover-color: var(--ebl-light-mid-gray);
+  --ebl-button-chip-border-hover-color: var(--ebl-black);
+  --ebl-button—chip-bg-selected-color: var(--ebl-light-action-color);
+  --ebl-button-chip-bg-selected-color: var(--ebl-light-action-color);
+  --ebl-button—chip-border-selected-color: var(--ebl-action-color);
+  --ebl-button-chip-border-selected-color: var(--ebl-action-color);
+
+}

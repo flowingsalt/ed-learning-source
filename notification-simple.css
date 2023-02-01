@@ -1,0 +1,18 @@
+/*------------------------------------------------------------------
+ * Simple Notification
+ *
+ * @zeplin https://zpl.io/bzRYLPl
+ *----------------------------------------------------------------*/
+
+:root {
+  /* Simple notifications get Subhead 1 text styles */
+  --ebl-notify-simple-font-family: var(--ebl-wf-headings);
+  --ebl-notify-simple-font-size: var(--ebl-sh3);
+  --ebl-notify-simple-line-height: var(--ebl-sh3-line-height);
+  --ebl-notify-simple-letter-spacing: var(--ebl-sh3-letter-spacing);
+  --ebl-notify-simple-color: var(--ebl-sh3-color);
+  --ebl-notify-simple-font-weight: var(--ebl-sh3-weight);
+  --ebl-notify-simple-marginbottom: var(--ebl-s4);
+
+  --ebl-notify-simple-icon-margin: var(--ebl-s2);
+}

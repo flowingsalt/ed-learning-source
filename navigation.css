@@ -1,0 +1,197 @@
+/*------------------------------------------------------------------
+ * Primary & Secondary Navigation
+ *
+ * @zeplin https://zpl.io/aR0p0y0 (main nav)
+ *         https://zpl.io/bPnJgPx (secondary nav)
+           https://zpl.io/2EpPPJM (tertiary nav)
+
+ *----------------------------------------------------------------*/
+
+/* --Main Navigation-- */
+:root {
+  --ebl-nav-height: 4rem; /* 64px */
+
+  --ebl-nav-padding-right: var(--ebl-s2);
+  --ebl-nav-padding-left: 0;
+
+  --ebl-nav-shadow: var(--ebl-shadow-1);
+  --ebl-nav-bg: var(--ebl-white);
+
+  /* --Logo-- */
+  --ebl-logo-color: var(--ebl-mid-gray);
+  --ebl-logo-color-hover: var(--ebl-black);
+
+  /* --Hamburger Menu-- */
+  --ebl-menu-color: var(--ebl-logo-color);
+  --ebl-menu-color-hover-selected: var(--ebl-logo-color-hover);
+
+  /* --Hamburger Menu Items (top-level)-- */
+  --ebl-burger-padding-left: var(--ebl-s6);
+  --ebl-burger-padding-right: var(--ebl-s4);
+
+  /* --Pill-shaped Buttons-- */
+  --ebl-nav-btn-height: var(--ebl-button-height-lg);
+  --ebl-nav-btn-radius: calc(var(--ebl-button-height-lg) / 2);
+  --ebl-nav-btn-padding: 0 var(--ebl-s4);
+  --ebl-nav-btn-margin: var(--ebl-s1); /* total of 8px between buttons */
+
+  --ebl-nav-btn-font-color: var(--ebl-text-black);
+  --ebl-nav-btn-bg: var(--ebl-nav-bg);
+  --ebl-nav-btn-bg-hover: var(--ebl-light-brand);
+  --ebl-nav-btn-bg-selected: var(--ebl-brand);
+
+  /* --Settings Cog-- */
+  --ebl-settings-color: var(--ebl-logo-color);
+  --ebl-settings-hover-selected: var(--ebl-logo-color-hover);
+
+  /* --Avatar-- */
+  --ebl-avatar-margin-left: var(--ebl-s3);
+  /* Additional avatar variables in avatars.css */
+}
+
+/* Update margins & paddings from sm + md breakpoints */
+@media screen and (min-width: 600px) and (max-width: 1279px) {
+  :root {
+    --ebl-nav-padding-left: var(--ebl-s2);
+  }
+}
+
+/* Update margins & paddings from lg breakpoint */
+@media screen and (min-width: 1280px) {
+  :root {
+    --ebl-nav-padding-left: var(--ebl-s3);
+    --ebl-nav-padding-right: var(--ebl-s3);
+  }
+}
+
+/* --Sub Navigation-- */
+:root {
+  --ebl-subnav-height: 3rem; /* 48px */
+  --ebl-subnav-border-top: solid 1px var(--ebl-disabled-color);
+  --ebl-subnav-border-top-color: var(--ebl-disabled-color);
+  --ebl-subnav-border-top-style: solid;
+  --ebl-subnav-border-top-width: 1px;
+  /* NOT ADDED TO FIGMA */
+  --ebl-subnav-border-bottom: var(--ebl-shadow-1);
+
+
+  --ebl-subnav-indicator-padding: 0 var(--ebl-s6);
+  --ebl-subnav-indicator-bottom-border: solid 0.25rem transparent; /* 4px */
+  --ebl-subnav-indicator-bottom-border-color: transparent;
+  --ebl-subnav-indicator-bottom-border-width: 0.25rem /* 4px */;
+  --ebl-subnav-indicator-bottom-border-style: solid;
+
+  /* these colors refer to the bottom border on subnav indicators */
+  --ebl-subnav-indicator-selected: var(--ebl-action-color);
+  --ebl-subnav-indicator-hover: var(--ebl-light-action-color);
+
+  /* hamburger list items at smaller BPs */
+  --ebl-subnav-li-height: var(--ebl-s7);
+
+  --ebl-subnav-li-bg: var(--ebl-background);
+
+  --ebl-subnav-li-padding-top: var(--ebl-s2);
+  --ebl-subnav-li-padding-right: var(--ebl-s4);
+  --ebl-subnav-li-padding-bottom: var(--ebl-s2);
+  --ebl-subnav-li-padding-left: var(--ebl-s7);
+
+  /* added unified declaration for use in Figma */
+  --ebl-subnav-li-padding: var(--ebl-s2) var(--ebl-s4) var(--ebl-s2) var(--ebl-s7);
+}
+
+/* --Tertiary Navigation-- */
+:root {
+  --ebl-tert-nav-height: 3rem; /* 48px */
+
+  --ebl-tert-nav-border-bottom: solid 0.0625rem var(--ebl-disabled-color); /* 1px */
+  /* Split above values for consumption in Figma */
+  --ebl-tert-nav-border-bottom-color: var(--ebl-disabled-color);
+  --ebl-tert-nav-border-bottom-width: 0.0625rem; /* 1px */
+  --ebl-tert-nav-border-bottom-style: solid;
+
+  --ebl-tert-nav-indicator-border: solid 0.125rem transparent; /* 2px */
+  /* Split above values for consumption in Figma */
+  --ebl-tert-nav-indicator-border-color: transparent;
+  --ebl-tert-nav-indicator-border-width: 0.125rem; /* 2px */
+  --ebl-tert-nav-indicator-border-style: solid;
+
+  --ebl-tert-nav-tabs-padding: var(--ebl-s4);
+
+  /* these colors refer to the bottom border on tertiary indicators */
+  --ebl-tert-nav-indicator-selected: var(--ebl-action-color);
+  --ebl-tert-nav-indicator-hover: var(--ebl-light-action-color);
+
+  --ebl-tert-nav-scroll-hover: var(--ebl-light-gray);
+
+  /* For lg BP and above */
+  --ebl-tert—nav-radius: 0.25rem; /* 4px */
+  /* REMAPPED TO REMOVE EMDASH CHARACTER IN VAR NAME */
+  --ebl-tert-nav-radius: 0.25rem; /* 4px */
+
+  --ebl-tert-nav-bg-selected: var(--ebl-light-gray);
+  --ebl-tert-nav-bg-hover: var(--ebl-light-mid-gray);
+
+  --ebl-tert-nav-indicator-border-radius: 0.25rem 0rem 0rem 0.25rem;
+
+  --ebl-tert-nav-padding-left: var(--ebl-s3);
+  --ebl-tert-nav-padding-right: var(--ebl-s3);
+
+  --ebl-tert-nav-margin: var(--ebl-s3);
+  --ebl-tert-nav-icon-margin: var(
+    --ebl-s5
+  ); /* B/w left icon and right list item text */
+}
+
+/* updates border from lg BP */
+@media screen and (min-width: 1280px) {
+  :root {
+    --ebl-tert-nav-indicator-border: solid 0.25rem var(--ebl-action-color); /* 4px */
+  }
+}
+
+/* --Dot Navigation-- */
+:root {
+  --ebl-dot-nav-base: 16px;
+
+  --ebl-dot-nav-size: 0.5rem; /* 8px */
+  --ebl-dot-nav-spacing: var(--ebl-s3); /* 16px) */
+
+  --ebl-dot-nav-color: var(--ebl-dark-gray);
+
+  --ebl-dot-nav-active-bg: var(--ebl-dot-nav-color);
+  --ebl-dot-nav-active-border: solid 1px var(--ebl-dot-nav-color);
+  /* Split above values for consumption in Figma */
+  --ebl-dot-nav-active-border-color: var(--ebl-dot-nav-color);
+  --ebl-dot-nav-active-border-width: 1px;
+  --ebl-dot-nav-active-border-style: solid;
+
+  --ebl-dot-nav-inactive-bg: transparent;
+  --ebl-dot-nav-inactive-border: var(--ebl-dot-nav-active-border);
+}
+
+/* --Drawer-- */
+:root {
+ --ebl-drawer-header-padding: var(--ebl-s3) var(--ebl-s3) var(--ebl-s3) var(--ebl-s4);
+ --ebl-drawer-padding: var(--ebl-s4);
+ --ebl-drawer-m-header-padding: var(--ebl-s2) var(--ebl-s2) var(--ebl-s2) var(--ebl-s3);
+ --ebl-drawer-m-padding: var(--ebl-s3);
+ --ebl-drawer-width-default: 31.25rem; /* 500px */
+ --ebl-drawer-width-mobile: 20rem; /* 320px */
+}
+
+/* Filter TOC */
+:root {
+--ebl-tocfilter-listitem-paddingleft: var(--ebl-s3);
+--ebl-tocfilter-listitem-paddingright: var(--ebl-s3);
+--ebl-tocfilter-listitem-paddingtop: var(--ebl-s3);
+--ebl-tocfilter-listitem-paddingbottom: var(--ebl-s3);
+
+--ebl-tocfilter-listitem-title-color: var(--ebl-text-black);
+--ebl-tocfilter-listitem-subtitle-color: var(--ebl-text-black);
+--ebl-tocfilter-listitem-icon-color: var(--ebl-dark-gray);
+
+--ebl-tocfilter-listitem-selected-backgroundcolor: var(--ebl-light-gray);
+--ebl-tocfilter-listitem-selected-icon-color: var(--ebl-dark-gray);
+--ebl-tocfilter-listitem-selected-indicator-color: var(--ebl-action-color);
+}
+/* FILTER TOC */

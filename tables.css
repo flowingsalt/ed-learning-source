@@ -1,0 +1,75 @@
+/*------------------------------------------------------------------
+ * Data Tables
+ *
+ * * sortable table
+ * * pagination
+ *----------------------------------------------------------------*/
+
+:root {
+  --ebl-table-header-border-color: var(--ebl-secondary-2); /* default color */
+  --ebl-table-header-border-width: 0.25rem; /* 4px */
+  --ebl-table-radius: 0.25rem; /* 4px */
+  --ebl-table-border-color: var(--ebl-card-border-color);
+  --ebl-table-border-width: 0.0625rem; /* 1px */
+  --ebl-table-border: solid var(--ebl-table-border-width)
+    var(--ebl-table-border-color);
+
+  --ebl-table-zebra-bg: var(--ebl-background);
+
+  --ebl-table-header-cell-padding: var(--ebl-s3); /* 16px all around */
+  --ebl-table-header-text-color: var(--ebl-text-gray);
+
+  /* between label & sort arrow (when visible) */
+  --ebl-table-header-text-margin-right: var(--ebl-s2);
+
+  --ebl-table-cell-padding: var(--ebl-s3);
+
+  /* --Table Interactions-- */
+  --ebl-table-header-text-active: var(--ebl-text-black);
+  --ebl-table-row-hover-color: var(--ebl-light-action-color);
+  --ebl-table-row-selected-color: var(--ebl-mid-action-color);
+
+  /* --Compact Tables-- */
+  --ebl-table-c-header-border-width: 0.125rem; /* 2px for compact tables */
+  --ebl-table-c-cell-padding: var(--ebl-s2) var(--ebl-s3);
+
+  /* --Table Pagination-- */
+  --ebl-table-pagination-border: var(--ebl-card-border);
+
+  --ebl-table-pagination-min-width: 18rem; /* 288px */
+
+  --ebl-table-pagination-padding: var(--ebl-s1);
+  --ebl-table-pagination-radius: 0.5rem; /* 8px */
+
+  --ebl-table-pagination-button-margin-left: var(--ebl-s4);
+  --ebl-table-pagination-m-margin-top: var(--ebl-s2);
+  --ebl-table-pagination-m-margin-bottom: 0.5rem; /* 8px */
+
+  /* --Mobile Table-- */
+  --ebl-table-m-sort-margin-left: var(--ebl-s2);
+  --ebl-table-m-sort-margin-bottom: var(--ebl-s3);
+  --ebl-table-m-sort-minWidth: 9.375rem; /* 150px */
+
+  /* min height here in case of long title */
+  --ebl-table-m-header-min-height: 4rem; /* 64px */
+
+  --ebl-table-m-header-icon-margin-left: var(--ebl-s3);
+
+  --ebl-table-m-padding-left: var(--ebl-s3);
+  --ebl-table-m-padding-right: var(--ebl-s3);
+
+  /* only needed when table has selectable rows */
+  --ebl-table-m-checkbox-margin-right: var(--ebl-s3);
+  --ebl-table-m-checkbox-accordion-indent: var(--ebl-s6);
+
+  --ebl-table-m-accordion-open-padding-top: var(--ebl-s4);
+  --ebl-table-m-accordion-open-padding-bottom: var(--ebl-s4);
+
+  --ebl-table-m-accordion-open-bg: var(--ebl-background);
+  --ebl-table-m-accordion-child-padding: var(--ebl-s2) 0;
+  --ebl-table-m-accordion-child-border: solid 1px var(--ebl-table-border-color);
+
+  --ebl-table-m-accordion-selected-open-bg: var(--ebl-light-action-color);
+  --ebl-table-m-accordion-selected-open-child-border: solid 1px
+    var(--ebl-dark-gray);
+}

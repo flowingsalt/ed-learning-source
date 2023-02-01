@@ -1,0 +1,45 @@
+/*------------------------------------------------------------------
+ * Dropdown Menus
+ *
+ * @zeplin https://zpl.io/2ZB14yq (inline)
+ *         https://zpl.io/amwAe5e (user)
+ *----------------------------------------------------------------*/
+
+:root {
+  /* --Dropdown Frame (closed state)-- */
+  --ebl-dropdown-min-width: 8.1875rem; /* 131px */
+  --ebl-dropdown-height: 2.5rem; /* 40px -- the closed height */
+  --ebl-dropdown-border-radius: 0.25rem; /* 4px */
+  --ebl-dropdown-padding-right: var(--ebl-s6);
+  --ebl-dropdown-padding-left: var(--ebl-s3);
+
+  --ebl-dropdown-border-color: var(--ebl-mid-gray);
+  --ebl-dropdown-hover-border-color: var(--ebl-black);
+
+  /* --Icon-- */
+  --ebl-dropdown-icon-margin-right: var(--ebl-s3);
+  --ebl-dropdown-icon-margin-left: var(--ebl-s6);
+
+  /* --Dropdown Panel-- */
+  --ebl-dropdown-panel-max-height: 14.375rem; /* 230px -- the max open panel height before scrolling */
+  --ebl-dropdown-panel-maxwidth: 31.25rem; /* 500px */
+  --ebl-dropdown-panel-footer-maxheight: 18.375rem; /* 294px */
+  --ebl-dropdown-panel-minwidth: 18rem; /* 288px */
+  --ebl-dropdown-panel-padding: var(--ebl-s2) var(--ebl-s3);
+  --ebl-dropdown-panel-padding-top: var(--ebl-s2);
+  --ebl-dropdown-panel-padding-bottom: var(--ebl-s2);
+  --ebl-dropdown-panel-padding-left: var(--ebl-s3);
+  --ebl-dropdown-panel-padding-right: var(--ebl-s3);
+  --ebl-dropdown-panel-shadow: var(--ebl-shadow-8);
+  --ebl-dropdown-button-group-margintop: var(--ebl-s3);
+
+  /* --Dropdown List Items-- */
+  --ebl-dropdown-li-height: 2.5rem; /* 40px -- each list item */
+  --ebl-dropdown-li-hover-color: var(--ebl-light-gray);
+  --ebl-dropdown-li-selected-color: var(--ebl-light-mid-gray);
+
+  /* --Combo Box (closed state)-- */
+  --ebl-Combo-box-padding-right: var(--ebl-s7);
+
+  --ebl-dropdown-page-margin-bottom: var(--ebl-s2);
+}

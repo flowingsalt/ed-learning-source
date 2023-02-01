@@ -1,0 +1,72 @@
+/*------------------------------------------------------------------
+ * Data Viz
+ *
+ * @zeplin https://zpl.io/blqrmkD
+ *
+ *----------------------------------------------------------------*/
+
+:root {
+  /* --Clustered Row Chart-- */
+  --ebl-chart-cr-bar-height: 3rem; /* 48px */
+  --ebl-chart-cr-bar-radius: 4px;
+  --ebl-chart-cr-bar-maxWidth: 9.375rem; /* 150px */
+  --ebl-chart-cr-hover-active-borderwidth: 2px;
+
+  --ebl-chart-cr-title-marginbottom: var(--ebl-s4);
+  --ebl-chart-cr-label-marginright: var(--ebl-s3);
+  --ebl-chart-cr-row-marginbottom: var(--ebl-s1);
+  --ebl-chart-cr-bar-marginleft: var(--ebl-s2);
+  --ebl-chart-cr-avatar-marginleft: var(--ebl-s2);
+  --ebl-chart-cr-legend-margintop: var(--ebl-s6);
+  --ebl-chart-cr-legend-item-marginright: var(--ebl-s6);
+
+  --ebl-chart-cr-belowlevel-color: var(--ebl-signal-error);
+  --ebl-chart-cr-onlevel-color: var(--ebl-signal-warning);
+  --ebl-chart-cr-abovelevel-color: var(--ebl-signal-success);
+
+  --ebl-chart-cr-belowlevel-color-light: var(--ebl-signal-error-light);
+  --ebl-chart-cr-onlevel-color-light: var(--ebl-signal-warning-light);
+  --ebl-chart-cr-abovelevel-color-light: var(--ebl-signal-success-light);
+
+  --ebl-chart-cr-hoverborder-color: var(--ebl-black);
+
+  /* --Stacked Horizontal Bar Chart-- */
+  --ebl-chart-shbc-band-height: 0.5rem; /* 8px */
+
+  --ebl-chart-shbc-node-size-sm: 0.75rem; /* 12px */
+  --ebl-chart-shbc-node-size-md: 1.5rem; /* 24px */
+  --ebl-chart-shbc-node-size-lg: 2rem; /* 32px */
+
+  --ebl-chart-shbc-node-border-sm-md: solid 0.25rem var(--ebl-white); /* 4px */
+
+  --ebl-chart-shbc-node-shadow: var(--ebl-shadow-3);
+
+  --ebl-chart-shbc-class-avg-node-bgcolor: var(--ebl-black);
+  --ebl-chart-shbc-avg-combo-node-bg-color: var(--ebl-white);
+
+  --ebl-chart-shbc-band-marginbottom: var(--ebl-s2);
+  --ebl-chart-shbc-band-marginright: var(--ebl-s2);
+
+  --ebl-chart-shbc-band-value-color: var(--ebl-text-gray);
+
+  --ebl-chart-shbc-band-label-margintop: var(--ebl-s6);
+  --ebl-chart-shbc-band-label-dot-marginright: var(--ebl-s2);
+
+ /* --Donut Chart-- */
+  --ebl-chart-donut-band-gap: var(--ebl-s1);
+  --ebl-chart-donut-outer-circumfrence: 12rem; /* 192px */
+  --ebl-chart-donut-inner-circumfrence: 7.5rem; /* 120px */
+
+  --ebl-chart-donut-legend-nodata-color: var(--ebl-disabled-color);
+  --ebl-chart-donut-legend-below-color: var(--ebl-signal-error);
+  --ebl-chart-donut-legend-on-color: var(--ebl-signal-warning);
+  --ebl-chart-donut-legend-above-color: var(--ebl-signal-success);
+  --ebl-chart-donut-legend-value-color: var(--ebl-text-gray);
+
+  --ebl-chart-donut-legend-margintop: var(--ebl-s6);
+  --ebl-chart-donut-legend-row-spacing: var(--ebl-s4);
+  --ebl-chart-donut-legend-dot-marginright: var(--ebl-s2);
+  --ebl-chart-donut-legend-item-marginright: var(--ebl-s6);
+
+  --ebl-chart-donut-selected-border: solid 2px inset var(--ebl-black);
+}

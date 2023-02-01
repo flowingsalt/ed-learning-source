@@ -1,0 +1,16 @@
+:root {
+  --ebl-popover-width: 18rem; /* 288px */
+  --ebl-popover-padding: var(--ebl-s2) 0 var(--ebl-s2) var(--ebl-s3);
+  --ebl-popover-header-margintop: var(--ebl-s2);
+  --ebl-popover-header-margin-bottom: var(--ebl-s4);
+  --ebl-popover-header-icon-marginright: var(--ebl-s2);
+  --ebl-popover-header-text-marginbottom: var(--ebl-s3); /* 16px */
+  --ebl-popover-header-button-marginright: var(--ebl-s2);
+  --ebl-popover-content-minheight: 8.375rem; /* 134px */
+  --ebl-popover-content-maxheight: 20rem; /* 320px */
+  --ebl-popover-content-marginbottom: var(--ebl-s2);
+  --ebl-popover-content-marginright: var(--ebl-s3);
+  --ebl-popover-button-margintop: var(--ebl-s4);
+  --ebl-popover-button-marginbottom: var(--ebl-s3); /* 16px */
+  --ebl-popover-alertnotif-margintop: var(--ebl-s4);
+}

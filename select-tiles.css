@@ -1,0 +1,5 @@
+:root {
+    --ebl-tile-margintop: var(--ebl-s3);
+    --ebl-tile-button-padding: var(--ebl-s2);
+    --ebl-tile-text-paddingleft: var(--ebl-s3);
+}

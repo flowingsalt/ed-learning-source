@@ -1,0 +1,24 @@
+/*------------------------------------------------------------------
+ * Checkboxes
+ *
+ * @zeplin https://zpl.io/259eO8W
+ *----------------------------------------------------------------*/
+
+:root {
+  --ebl-checkbox-size: 1.5rem; /* 24px */
+
+  --ebl-checkbox-color: var(--ebl-dark-gray);
+  --ebl-checkbox-partial-color: var(--ebl-mid-gray);
+  --ebl-checkbox-selected-color: var(--ebl-action-color);
+  --ebl-checkbox-disabled-color: var(--ebl-disabled-color);
+
+  /* Distance from checkbox to label */
+  --ebl-checkbox-margin-right: var(--ebl-s3);
+
+  /* If using inline, add 24px to right of checkbox+label */
+  --ebl-checkbox-inline-margin-right: var(--ebl-s6);
+
+  /* For avatar checkbox selects */
+  --ebl-avatar-checkbox-margin-right: var(--ebl-s3);
+  --ebl-avatar-checkbox-label-margin-right: var(--ebl-s2);
+}

@@ -1,0 +1,10 @@
+/*------------------------------------------------------------------
+ * Expansion Panels
+ *
+ * @zeplin https://zpl.io/2pjdrK8
+ *----------------------------------------------------------------*/
+
+:root {
+  --ebl-exp-panel-margin-bottom: var(--ebl-s3);
+  --ebl-exp-panel-margintop: var(--ebl-s4);
+}

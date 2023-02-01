@@ -1,0 +1,130 @@
+/*------------------------------------------------------------------
+ * General Font stylings for CTS
+ *
+ * See component css files for component-specific variables
+ *
+ * @zeplin https://zpl.io/V1pKz6J
+ *----------------------------------------------------------------*/
+
+:root {
+  /* The base font size, from which all others are derived */
+  --ebl-font-size-base: 16px;
+
+  /* --Font Waterfalls-- */
+  --ebl-wf-headings: "Gilroy", "Futura", Helvetica, sans-serif;
+  --ebl-wf-body: "Noto Sans", "Helvetica Neue", Helvetica, sans-serif;
+
+  /* --Font Weight-- */
+  --ebl-wf-headings-weight-bold: 700;
+  --ebl-wf-headings-weight: 500;
+
+  --ebl-wf-body-weight-bold: 700;
+  --ebl-wf-body-weight: 400;
+
+  /* --Headings-- */
+  --ebl-h1: 2.75rem; /* 44px */
+  --ebl-h1-line-height: 3.5rem; /* 56px */
+  --ebl-h1-letter-spacing: 0; 
+  --ebl-h1-color: var(--ebl-text-black);
+  --ebl-h1-weight: var(--ebl-wf-headings-weight-bold);
+
+  --ebl-h2: 2.25rem; /* 36px */
+  --ebl-h2-line-height: 3rem; /* 48px */
+  --ebl-h2-letter-spacing: 0;
+  --ebl-h2-color: var(--ebl-text-black);
+  --ebl-h2-weight: var(--ebl-wf-headings-weight-bold);
+
+  --ebl-h3: 1.5rem; /* 24px */
+  --ebl-h3-line-height: 2rem; /* 32px */
+  --ebl-h3-letter-spacing: 0.0125rem; /* .2px */
+  --ebl-h3-color: var(--ebl-text-black);
+  --ebl-h3-weight: var(--ebl-wf-headings-weight-bold);
+
+  --ebl-h4: 1.125rem; /* 18px */
+  --ebl-h4-line-height: 1.75rem; /* 28px */
+  --ebl-h4-letter-spacing: 0.01875rem; /* .3px */
+  --ebl-h4-color: var(--ebl-text-black);
+  --ebl-h4-weight: var(--ebl-wf-headings-weight-bold);
+
+  --ebl-h5: 1.125rem; /* 18px */
+  --ebl-h5-line-height: 1.75rem; /* 28px */
+  --ebl-h5-letter-spacing: 0.0125rem; /* .2px */
+  --ebl-h5-color: var(--ebl-text-black);
+  --ebl-h5-weight: var(--ebl-wf-headings-weight);
+
+  --ebl-h6: 1rem; /* 16px */
+  --ebl-h6-line-height: 1.625rem; /* 26px */
+  --ebl-h6-letter-spacing: 0.01875rem; /* .3px */;
+  --ebl-h6-color: var(--ebl-text-black);
+  --ebl-h6-weight: var(--ebl-wf-headings-weight-bold);
+
+  /* --Subheadings-- */
+
+  --ebl-sh1: 1rem; /* 16px */
+  --ebl-sh1-line-height: 1.625rem; /* 26px */
+  --ebl-sh1-letter-spacing: 0.0125rem; /* .2px */
+  --ebl-sh1-color: var(--ebl-text-black);
+  --ebl-sh1-weight: var(--ebl-wf-headings-weight);
+
+  --ebl-sh2: 0.875rem; /* 14px */
+  --ebl-sh2-line-height: 1.5rem; /* 24px */
+  --ebl-sh2-letter-spacing: 0.03125rem; /* .5px */
+  --ebl-sh2-color: var(--ebl-text-black);
+  --ebl-sh2-weight: var(--ebl-wf-headings-weight-bold);
+
+  --ebl-sh3: 0.875rem; /* 14px */
+  --ebl-sh3-line-height: 1.5rem; /* 24px */
+  --ebl-sh3-letter-spacing: 0.0125rem; /* .2px */
+  --ebl-sh3-color: var(--ebl-text-black);
+  --ebl-sh3-weight: var(--ebl-wf-headings-weight);
+
+  --ebl-sh4: 0.8125rem; /* 13px */
+  --ebl-sh4-line-height: 1.5rem; /* 24px */
+  --ebl-sh4-letter-spacing: 0.0125rem; /* .2px */
+  --ebl-sh4-color: var(--ebl-text-black);
+  --ebl-sh4-weight: var(--ebl-wf-headings-weight);
+  --ebl-sh4-text-transform: none;
+
+  /* --Body-- */
+
+  --ebl-p1: 1rem;
+  --ebl-p1-line-height: 1.5rem; /* 24px */
+  --ebl-p1-letter-spacing: 0;
+  --ebl-p1-color: var(--ebl-text-black);
+
+  --ebl-p2: 0.875rem; /* 14px */
+  --ebl-p2-line-height: 1.25rem; /* 20px */
+  --ebl-p2-letter-spacing: 0.0125rem; /* .2px */
+  --ebl-p2-color: var(--ebl-text-black);
+
+  /* --Error Pages-- */
+  --ebl-h1-error: 5.5rem; /* 88px */
+  --ebl-h1-error-line-height: 6.625rem; /* 106px */
+  --ebl-h1-error-letter-spacing: 0;
+  --ebl-h1-error-color: var(--ebl-action-color);
+  --ebl-h1-error-weight: var(--ebl-wf-headings-weight-bold);
+
+  /* --Links-- */
+
+  --ebl-link-normal-color: var(--ebl-action-color);
+  --ebl-link-normal-text-decoration: underline;
+
+  --ebl-link-hover-color: var(--ebl-black);
+  --ebl-link-hover-text-decoration: underline;
+
+  --ebl-link-active-color: var(--ebl-text-black);
+  --ebl-link-active-text-decoration: underline;
+
+  --ebl-link-visited-color: var(--ebl-secondary-1);
+  --ebl-link-visited-text-decoration: underline;
+
+  --ebl-link-disabled-color: var(--ebl-disabled-color);
+}
+/* Mobile */
+@media screen and (max-width: 599px) {
+  :root {
+    --ebl-h1: 2.25rem; /* 36px */
+    --ebl-h1-line-height: 2.5rem; /* 40px */
+    --ebl-h1-letter-spacing: -0.0125rem; /* -.2px */
+  }
+}

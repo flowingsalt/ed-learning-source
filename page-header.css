@@ -1,0 +1,24 @@
+/*------------------------------------------------------------------
+ * Page Header Variables
+ *
+ * @zeplin https://zpl.io/VxX8kRk(Page Header)
+ *----------------------------------------------------------------*/
+
+:root {
+  --ebl-page-header-eyebrow-color: var(--ebl-text-gray);
+  --ebl-page-header-subhead-color: var(--ebl-text-black);
+
+  --ebl-page-header-max-width: 37.5rem; /* 600px */
+  --ebl-page-header-margin-top: var(--ebl-s6);
+  --ebl-page-header-margin-bottom: var(--ebl-s7);
+  --ebl-header-margin-bottom: var(--ebl-page-header-margin-bottom);
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+  :root {
+    --ebl-h1: 2.25rem; /* 36px */
+    --ebl-h1-line-height: 3rem; /* 48px */
+    --ebl-h1-letter-spacing: -0.0125rem; /* -.2px */
+  }
+}

@@ -1,0 +1,150 @@
+/*------------------------------------------------------------------
+ * CTS Color Palette
+ *
+ * See component css files for component-specific variables
+ *
+ * @zepin https://zpl.io/an7lpqn
+ *----------------------------------------------------------------*/
+/* @import url("colours.css"); */
+
+:root {
+  /* --Brand Colors-- */
+
+  /* Primary Colors */
+  --ebl-brand: var(--golden-s25);
+  --ebl-light-brand: var(--golden-s10);
+
+  /* --Grays-- */
+  --ebl-black: var(--gray-c70);
+  --ebl-dark-gray: var(--gray-c60);
+  --ebl-mid-gray: var(--gray-c40);
+  --ebl-light-mid-gray: var(--gray-c10);
+  --ebl-light-gray: var(--cool-gray-c5);
+  --ebl-white: var(--white);
+
+  /* --Secondary Colors-- */
+  --ebl-secondary-1: var(--purple-c55);
+  --ebl-secondary-2: var(--aqua-s40);
+  --ebl-secondary-3: var(--turquoise-c35);
+  --ebl-secondary-4: var(--red-c40);
+
+  /* --Tertiary Colors-- */
+  --ebl-tertiary-1: var(--purple-c10);
+  --ebl-tertiary-2: var(--blue-c10);
+  --ebl-tertiary-3: var(--turquoise-c15);
+  --ebl-tertiary-4: var(--red-c5);
+
+  /* --Utility Colors-- */
+  --ebl-action-color: var(--blue-c55);
+  --ebl-mid-action-color: var(--blue-c15);
+  --ebl-light-action-color: var(--blue-c10);
+  --ebl-disabled-color: var(--cool-gray-c15);
+  --ebl-dark-action-color: var(--blue-c60);
+
+  /* --Alert Colors-- */
+  --ebl-alert-brand: var(--golden-s25);
+  --ebl-alert-black: var(--ebl-black);
+  --ebl-alert-gray: var(--gray-c5);
+
+  /* --Signal Colors-- 🚦 */
+  --ebl-signal-error: var(--red-c50);
+  --ebl-signal-warning: var(--orange-s40);
+  --ebl-signal-success: var(--green-c50);
+  --ebl-signal-info: var(--aqua-s50);
+
+  --ebl-signal-error-light: var(--red-c5);
+  --ebl-signal-warning-light: var(--orange-c5);
+  --ebl-signal-success-light: var(--green-c5);
+  --ebl-signal-info-light: var(--aqua-c5);
+
+  /* --Proficiency Colors-- */
+  --ebl-proficiency-below: var(--red-c40);
+  --ebl-proficiency-basic: var(--orange-c40);
+  --ebl-proficiency-proficient: var(--turquoise-c45);
+  --ebl-proficiency-advanced: var(--aqua-s40);
+
+  /* --Text Colors */
+  --ebl-text-black: var(--gray-c70);
+  --ebl-text-gray: var(--gray-c50);
+  --ebl-text-white: var(--white);
+
+  /* --Border Colors-- */
+  --ebl-card-border-color: var(--cool-gray-c20);
+
+  /* --Background Colors-- */
+  --ebl-background: var(--cool-gray-c5);
+
+  /* --Disabled colors-- */
+  --ebl-disabled-color: #cacfd1;
+
+  /* --Discipline Theming-- */
+  --ebl-discipline-math: var(--purple-c55);
+  --ebl-discipline-rla: var(--green-s50);
+  --ebl-discipline-sh: var(--cerise-s50);
+  --ebl-discipline-ss: var(--orange-c50);
+
+  --ebl-discipline-math-light: var(--purple-c10);
+  --ebl-discipline-rla-light: var(--green-c10);
+  --ebl-discipline-sh-light: var(--cerise-c10);
+  --ebl-discipline-ss-light: var(--orange-c10);
+
+  /* JASPERSOFT INTEGRATION VARS */
+  --ebl-widget-chartcolor-red: var(--ebl-signal-error);
+  --ebl-widget-chartcolor-yellow: var(--ebl-signal-warning);
+  --ebl-widget-chartcolor-green: var(--ebl-signal-success);
+
+  /* -- Hero/Leader/Family Banner Colors-- */
+  --ebl-hero-background: #f8f1e8;
+  --ebl-hero-floor: #e8e1da;
+
+  --ebl-banner-hero-background-color: #f7f0e7;
+  --ebl-banner-hero-floor-color: #e7e0d9;
+
+  --ebl-banner-family-background-color: #f2f2f2;
+  --ebl-banner-family-floor-color: #dddddd;
+
+  --ebl-banner-leader-background-color: #dcefe9;
+  --ebl-banner-leader-floor-color: #c0e2db;
+
+  /* --Growth Measure Icon Colors-- */
+  --ebl-gm-icon-brand: var(--ebl-brand);
+  --ebl-gm-icon-white: var(--ebl-white);
+  --ebl-gm-icon-math: #9f4b9c;
+  --ebl-gm-icon-spanish: #0ba587;
+  --ebl-gm-icon-reading: #00a2c2;
+
+  /* --Mini Banner Background Colors-- */
+  --ebl-miniBanner-literacy-bg: #dfdcef;
+  --ebl-miniBanner-math-bg: #bdefb2;
+  --ebl-miniBanner-hmh-bg: #f9e6c0;
+  --ebl-miniBanner-bg: #c0e2db;
+
+  /* --Marketing Colors-- */
+  --ebl-mktg-beige1: #FAF8F6;
+  --ebl-mktg-beige2: #F7F3EF;
+  --ebl-mktg-beige3: #EFE9E1;
+  --ebl-mktg-beige4: #E7DDD1;
+  --ebl-mktg-beige5: #D6C5B1;
+
+  --ebl-mktg-proficiency-green: #05AD5E;
+  --ebl-mktg-proficiency-green-light: #B4E62E;
+  --ebl-mktg-proficiency-yellow: #FBDB08;
+  --ebl-mktg-proficiency-orange: #FC7600;
+  --ebl-mktg-proficiency-red: #FC3411;
+  --ebl-mktg-proficiency-turquoise: #33CCBD;
+  --ebl-mktg-proficiency-turquoise-light: #e7f6f3;
+
+
+  /*------------------------------------------------------------------
+   * FOCUS RING
+   *
+   * Global focus ring for all interactive elements. Apply as box-shadow
+   *----------------------------------------------------------------*/
+  --ebl-focus-color: #ca0092; /* use only if unable to use box-shadow */
+
+  --ebl-focus-ring: 0 0 0 1px #ffffff, 0 0 0 3px var(--ebl-focus-color),
+    0 0 0 4px #ffffff;
+
+  /* Deprecated */
+  --ebl-border-hairline-gray: var(--ebl-disabled-color);
+}

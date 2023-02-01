@@ -1,0 +1,18 @@
+/*------------------------------------------------------------------
+ * Dot Navigation
+ *----------------------------------------------------------------*/
+
+:root {
+  --dot-nav-base: 16px;
+
+  --dot-nav-size: 0.5rem; /* 8px */
+  --dot-nav-spacing: var(--ebl-s3); /* 16px) */
+
+  --dot-nav-color: var(--ebl-dark-gray);
+
+  --dot-nav-active-bg: var(--dot-nav-color);
+  --dot-nav-active-border: solid 1px var(--dot-nav-color);
+
+  --dot-nav-inactive-bg: transparent;
+  --dot-nav-inactive-border: var(--dot-nav-active-border);
+}

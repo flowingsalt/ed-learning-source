@@ -1,0 +1,83 @@
+/*------------------------------------------------------------------
+ * Noto Sans
+ * Additional charset support can be found here: https://fonts.googleapis.com/css?family=Noto+Sans:400,700
+ *----------------------------------------------------------------*/
+
+/* latin */
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: var(--wf-body-weight-bold);
+  src: local("Noto Sans Bold"), local("NotoSans-Bold"),
+    url("../../fonts/cts/o-0NIpQlx3QUlC5A4PNjXhFVZNyBx2pqPA.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: var(--wf-body-weight);
+  src: local("Noto Sans"), local("NotoSans"),
+    url("../../fonts/cts/o-0IIpQlx3QUlC5A4PNr5TRASf6M7Q.woff2") format("woff2");
+}
+
+/*------------------------------------------------------------------
+ * Gilroy
+ * For license information contact Nathan O'Neal (nathan.oneal@hmhco.com)
+ *----------------------------------------------------------------*/
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../fonts/cts/gilroy/e1b0d70c-ce3f-425e-9624-00edc593f331.eot?#iefix");
+  src: url("../../fonts/cts/gilroy/e1b0d70c-ce3f-425e-9624-00edc593f331.eot?#iefix")
+    format("eot"),
+    url("../../fonts/cts/gilroy/e62d07e6-5c21-45b8-8427-79c95511907d.woff2")
+    format("woff2"),
+    url("../../fonts/cts/gilroy/e667d70b-2326-4c62-8f38-200c31c3b08c.woff")
+    format("woff"),
+    url("../../fonts/cts/gilroy/f5bbc051-5a29-4fb2-8e73-6f9b370e692d.ttf")
+    format("truetype");
+  font-weight: var(--ebl-wf-headings-weight-bold);
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../fonts/cts/gilroy/3cbd86a8-4c1b-4e49-a391-2ec20fb9d489.eot?#iefix");
+  src: url("../../fonts/cts/gilroy/3cbd86a8-4c1b-4e49-a391-2ec20fb9d489.eot?#iefix")
+    format("eot"),
+    url("../../fonts/cts/gilroy/59440bfe-8fae-4d2c-8fa5-f7a0bd33b83a.woff2")
+    format("woff2"),
+    url("../../fonts/cts/gilroy/e3a21507-45b4-403f-80d4-c3769bb8abb1.woff")
+    format("woff"),
+    url("../../fonts/cts/gilroy/87420340-ead4-45b5-b5b5-0069bf2b0102.ttf")
+    format("truetype");
+  font-weight: var(--ebl-wf-headings-weight-bold);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../fonts/cts/gilroy/4a16895d-e7ea-467f-b07c-b52fb7f6eda0.eot?#iefix");
+  src: url("../../fonts/cts/gilroy/4a16895d-e7ea-467f-b07c-b52fb7f6eda0.eot?#iefix")
+    format("eot"),
+    url("../../fonts/cts/gilroy/94b9ba0e-1690-4966-8af8-7d8a1c22c221.woff2")
+    format("woff2"),
+    url("../../fonts/cts/gilroy/fd4654af-3e2f-4601-bb81-d6b08f68d9f0.woff")
+    format("woff"),
+    url("../../fonts/cts/gilroy/20149013-105c-4d0e-951b-af766c82f3d9.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: var(--ebl-wf-headings-weight);
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../fonts/cts/gilroy/8cc2dae9-8b16-463e-b65a-2bc762233349.eot?#iefix");
+  src: url("../../fonts/cts/gilroy/8cc2dae9-8b16-463e-b65a-2bc762233349.eot?#iefix")
+    format("eot"),
+    url("../../fonts/cts/gilroy/f2bc628e-29ba-4027-8000-256934a88ce8.woff2")
+    format("woff2"),
+    url("../../fonts/cts/gilroy/ed4ec59a-7b58-4c50-a807-3243d5c76766.woff")
+    format("woff"),
+    url("../../fonts/cts/gilroy/2bc85446-76ca-4049-807c-f4e485b29a95.ttf")
+    format("truetype");
+  font-style: italic;
+  font-weight: var(--ebl-wf-headings-weight);
+}

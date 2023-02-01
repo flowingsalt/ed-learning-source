@@ -1,0 +1,2 @@
+export var DEFAULT_PAGE_SIZE = 20;
+export var DEFAULT_PAGE_SIZE_OPTIONS = [20, 40, 60];

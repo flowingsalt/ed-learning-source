@@ -1,0 +1,86 @@
+import _defineProperty from "@babel/runtime/helpers/defineProperty";
+import keyMirror from '@hmhco/react-utils/src/keyMirror';
+export var API_REQUEST = 'API_REQUEST';
+export var API_SUCCESS = 'API_SUCCESS';
+export var API_FAILURE = 'API_FAILURE';
+export var SET_ENV_SUCCESS = 'SET_ENV_SUCCESS';
+export var SET_ENV_FAILURE = 'SET_ENV_FAILURE';
+export var LOAD_ENVIRONMENT = 'LOAD_ENVIRONMENT';
+export var AUTHENTICATE_USER = 'AUTHENTICATE_USER';
+export var CURRENT_STATE_CHANGED = 'CURRENT_STATE_CHANGED';
+export var PROGRAM_SELECTED = 'PROGRAM_SELECTED';
+export var LOAD_STATES = 'LOAD_STATES';
+export var LOAD_ENV = 'LOAD_ENV';
+export var LOAD_MANIFEST = 'LOAD_MANIFEST';
+export var LOAD_MANIFEST_ITEMS = 'LOAD_MANIFEST_ITEMS';
+export var TOKEN_LOADED = 'TOKEN_LOADED';
+export var JWT_LAUNCH_TOKEN_LOADED = 'JWT_LAUNCH_TOKEN_LOADED';
+export var ENTITLEMENTS_LOADED = 'ENTITLEMENTS_LOADED';
+export var USER_LOGOUT = 'USER_LOGOUT';
+export var USER_LOGOUT_NATIVE = 'USER_LOGOUT_NATIVE';
+export var SELECT_CAROUSEL_ITEM = 'SELECT_CAROUSEL_ITEM';
+export var CAROUSEL_ITEM_SELECTED = 'CAROUSEL_ITEM_SELECTED';
+export var LOAD_PROGRAM_DETAILS = 'LOAD_PROGRAM_DETAILS';
+export var PROGRAM_DETAILS_LOADED = 'PROGRAM_DETAILS_LOADED';
+export var LOAD_MANIFEST_RESOURCES = 'LOAD_MANIFEST_RESOURCES';
+export var ONESEARCH_GET_RESOURCES = 'ONESEARCH_GET_RESOURCES';
+export var MANIFEST_RESOURCES_LOADED = 'MANIFEST_RESOURCES_LOADED';
+export var CONTENT_LAUNCH_PREVIEW = 'CONTENT_LAUNCH_PREVIEW';
+export var CUSTOM_CONTENT_LAUNCH_PREVIEW = 'CUSTOM_CONTENT_LAUNCH_PREVIEW';
+export var REDIRECT_USER_WITH_ROUTER = 'REDIRECT_USER_WITH_ROUTER';
+export var SHOW_TOASTR_NOTIFICATION = '@ReduxToastr/toastr/ADD';
+export var REMOVE_TOASTR_NOTIFICATION = '@ReduxToastr/toastr/REMOVE';
+export var GET_DETAILS_JSON = 'GET_DETAILS_JSON';
+export var DETAILS_JSON_LOADED = 'DETAILS_JSON_LOADED';
+export var GET_RESOURCE_ICON = 'GET_RESOURCE_ICON';
+export var LOAD_DMPS_FUNCTIONS = 'LOAD_DMPS_FUNCTIONS';
+export var LAUNCH_IOS_APP = 'LAUNCH_IOS_APP';
+var API_TYPES = keyMirror({
+  REQUEST: null,
+  SUCCESS: null,
+  FAILURE: null
+});
+export var createRequestTypes = function createRequestTypes(base) {
+  var _ref;
+
+  return _ref = {}, _defineProperty(_ref, base, base), _defineProperty(_ref, API_TYPES.REQUEST, "".concat(base, "_").concat(API_TYPES.REQUEST)), _defineProperty(_ref, API_TYPES.SUCCESS, "".concat(base, "_").concat(API_TYPES.SUCCESS)), _defineProperty(_ref, API_TYPES.FAILURE, "".concat(base, "_").concat(API_TYPES.FAILURE)), _ref;
+};
+export var TRACK_EVENT_ACTIONS = keyMirror({
+  DISPATCH_EVENT: null,
+  LOAD_EVENT_FUNCTION: null
+});
+export var ASSIGNMENT_ACTIONS = keyMirror({
+  LOAD_ASSIGNMENT: null,
+  LAUNCH_PREVIEW_ASSIGNMENT: null,
+  LAUNCH_LIVE_ASSIGNMENT: null,
+  LAUNCH_LEARNOSITY_LIVE: null,
+  LAUNCH_CUSTOM_LIVE: null,
+  LAUNCH_REVIEW_ASSIGNMENT: null,
+  LAUNCH_WRITABLE: null,
+  START_ASSIGNMENT_FROM_LEARNOSITY: null,
+  SUBMIT_ASSIGNMENT_FROM_POSTMESSAGE: null
+});
+export var PROGRAM_SETTINGS_PRODUCTS = keyMirror({
+  'reading-inventory': null,
+  iRead: null
+});
+export var SCHOOL_ACTIONS = Object.freeze(createRequestTypes('FETCH_AVAILABLE_SCHOOLS'));
+export var FEEDBACK_ACTIONS = keyMirror({
+  FETCH_SINGLE_ASSIGNMENT_FEEDBACK: null,
+  FETCH_ASSIGNMENT_FEEDBACKS: null,
+  LOAD_ASSIGNMENT_FEEDBACKS: null,
+  FETCH_ASSIGNMENT_FEEDBACKS_ERROR: null
+});
+export var NETWORK_ACTIONS = keyMirror({
+  NETWORK_DISCONNECT_NOTIFICATION: null,
+  NETWORK_LAUNCH_ERROR: null,
+  SET_STATUS_AND_DISMISS_NETWORK_ERROR: null
+});
+export var TEACHER_FETCH_ACTIONS = keyMirror({
+  FETCH_TEACHERS: null,
+  LOAD_TEACHERS: null,
+  FETCH_TEACHERS_ERROR: null
+});
+export var CREATE_ASSIGNMENTS_ACTIONS = keyMirror({
+  SET_SHOW_ASSIGNMENTS_MODAL: null
+});

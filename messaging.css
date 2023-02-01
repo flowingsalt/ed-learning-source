@@ -1,0 +1,77 @@
+/*------------------------------------------------------------------
+ * Messaging
+ *
+ * @zeplin https://zpl.io/agpY5M1 Alert
+ *         https://zpl.io/blAN6GD Empty
+ *         https://zpl.io/2j9GkzO Info Banner
+ *----------------------------------------------------------------*/
+
+:root {
+  /* --Alert Banner-- */
+  --ebl-alert-notif-min-width: 18rem; /* 288px */
+  --ebl-alert-banner-radius: 0.5rem; /* 8px */
+  --ebl-alert-notif-margintop: var(--ebl-s3); /* 16px */
+  --ebl-alertnotif-sm-margintop: var(--ebl-s2); /* 8px */
+  --ebl-alertnotif-label-marginright: var(--ebl-s2); /* 8px */
+  --ebl-alertnotif-marginbottom: var(--ebl-s3); /* 16px */
+  --ebl-alertnotif-sm-marginbottom: var(--ebl-s2);/* 8px */
+
+  --ebl-alert-notif-sm-padding: var(--ebl-s3); /* 16px all around */
+  --ebl-alert-notif-padding: var(--ebl-s4); /* 24px all around */
+
+  --ebl-alert-notif-icon-sm-margin-right: var(--ebl-3);
+  --ebl-alert-notif-icon-sm-padding: 0.125rem; /* 2px */
+
+  --ebl-alert-notif-icon-margin-right: var(--ebl-s4);
+
+  --ebl-alert-notif-error-bg: var(--ebl-signal-error-light);
+  --ebl-alert-notif-error-icon-color: var(--ebl-signal-error);
+
+  --ebl-alert-notif-warning-bg: var(--ebl-signal-warning-light);
+  --ebl-alert-notif-warning-icon-color: var(--ebl-signal-warning);
+
+  --ebl-alert-notif-info-bg: var(--ebl-signal-info-light);
+  --ebl-alert-notif-info-icon-color: var(--ebl-signal-info);
+
+  --ebl-alert-notif-success-bg: var(--ebl-signal-success-light);
+  --ebl-alert-notif-success-icon-color: var(--ebl-signal-success);
+
+  /* --Empty Messaging-- */
+  --ebl-empty-headline-bg: var(--ebl-mktg-beige1);
+
+  --ebl-empty-headline-padding: var(--ebl-s3);
+
+  --ebl-empty-headline-compact-margin-bottom: 0;
+  --ebl-empty-headline-title-margin-bottom: var(--ebl-s2);
+  --ebl-empty-headline—text-margin-bottom: var(--ebl-s2);
+  --ebl-empty-headline-icon-margin-bottom: var(--ebl-s3);
+
+  /* --Info Banner-- */
+  --ebl-info-banner-min-width: 18rem; /* 288px */
+  --ebl-info-banner-padding: var(--ebl-s4); /* 24px all around */
+  --ebl-info-banner-radius: 0.5rem; /* 8px */
+  --ebl-info-banner-shadow: var(--ebl-shadow-8);
+  --ebl-infobanner—text-marginbottom: var(--ebl-s3);
+  --ebl-infobanner-text-marginbottom: var(--ebl-s3); 
+  --ebl-infobanner-margin: var(--ebl-s4);
+
+  --ebl-info-banner-icon-margin-right: var(--ebl-s4);
+  --ebl-info-banner—button-margin-left: var(--ebl-s6);
+  --ebl-info-banner—button-margin-top: var(--ebl-s3);
+  --ebl-info-banner—button-margin-bottom: var(--ebl-s2);
+  --ebl-info-banner-button-margin-left: var(--ebl-s6);
+  --ebl-info-banner-button-margin-top: var(--ebl-s3);
+  --ebl-info-banner-button-margin-bottom: var(--ebl-s2);
+
+  --ebl-info-banner-error-bg: var(--ebl-signal-error-light);
+  --ebl-info-banner-error-icon-color: var(--ebl-signal-error);
+
+  --ebl-info-banner-warning-bg: var(--ebl-signal-warning-light);
+  --ebl-info-banner-warning-icon-color: var(--ebl-signal-warning);
+
+  --ebl-info-banner-info-bg: var(--ebl-signal-info-light);
+  --ebl-info-banner-info-icon-color: var(--ebl-signal-info);
+
+  --ebl-info-banner-success-bg: var(--ebl-signal-success-light);
+  --ebl-info-banner-success-icon-color: var(--ebl-signal-success);
+}

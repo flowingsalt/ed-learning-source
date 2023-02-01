@@ -1,0 +1,13 @@
+:root {
+    --ebl-layout-content-margintop: var(--ebl-s6);
+
+    --ebl-spacing-vert-xxxsmall: var(--ebl-s0); /* 2px */
+    --ebl-spacing-vert-xxsmall: var(--ebl-s1); /* 4px */
+    --ebl-spacing-vert-xsmall: var(--ebl-s2); /* 8px */
+    --ebl-spacing-vert-small: var(--ebl-s3); /* 16px */
+    --ebl-spacing-vert-medium: var(--ebl-s4); /* 24px */
+    --ebl-spacing-vert-large: var(--ebl-s5); /* 32px */
+    --ebl-spacing-vert-xlarge: var(--ebl-s6); /* 40px */
+    --ebl-spacing-vert-xxlarge: var(--ebl-s7); /* 64px */
+    --ebl-spacing-vert-xxxlarge: var(--ebl-s8); /* 72px */
+}

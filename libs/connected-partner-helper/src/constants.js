@@ -1,0 +1,13 @@
+export var PARTNER_AMIRA = 'amira';
+export var PARTNER_WAGGLE = 'waggle';
+export var PARTNER_WRITABLE = 'writable';
+export var ASSIGN = 'assign';
+export var GRADE = 'grade';
+export var PREVIEW = 'preview';
+export var REVIEW = 'review';
+export var EDIT = 'edit';
+export var ERROR_POSITION_ASSIGNMENT_INFO = 'errorPositionAssignmentInfo';
+export var ERROR_POSITION_STUDENT_LIST = 'errorPositionStudentList';
+export var TEACHER = 'Instructor';
+export var STUDENT = 'Learner';
+export var PARTNER_MODAL_TIMEOUT = 1000;

@@ -1,0 +1,7 @@
+:root {
+  --ebl-fp-min-width: 18rem; /*288px*/
+  --ebl-fp-padding: var(--ebl-s3);
+  --ebl-fp-text-margin-bottom: var(--ebl-s4);
+  --ebl-fp-input-margin-top: var(--ebl-s2);
+  --ebl-fp-input-margin-bottom: var(--ebl-s3);
+}

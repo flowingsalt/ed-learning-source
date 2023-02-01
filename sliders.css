@@ -1,0 +1,24 @@
+/*------------------------------------------------------------------
+ * Slider w Textboxes Variables
+ *
+ * @zeplin https://app.zeplin.io/project/5db9c5069ca4192c4b948be8/screen/5f7dad613ec88dbae0c6e394
+ *
+ *----------------------------------------------------------------*/
+
+ :root {
+     --ebl-slider-padding: calc(var(--ebl-s4) / 2);
+     --ebl-slider-minwidth: 216px;
+     --ebl-slider-margintop: var(--ebl-s3);
+     --ebl-slider-input-margintop: var(--ebl-s3);
+     --ebl-slider-marginbottom: var(--ebl-s4);
+     --ebl-slider-range-height: var(--ebl-s1);
+     --ebl-slider-thumb-border: solid 1px var(--ebl-mid-gray);
+     /* Split above values for consumption in Figma */
+     --ebl-slider-thumb-border-color: var(--ebl-mid-gray);
+     --ebl-slider-thumb-border-width: 1px;
+     --ebl-slider-thumb-border-style: solid;
+     
+     --ebl-slider-thumb-padding: calc(var(--ebl-s4) / 2);
+     --ebl-slider-thumb-borderradius: calc(var(--ebl-s4) / 2);
+     --ebl-slider-range-borderradius: var(--ebl-s0);
+ }
